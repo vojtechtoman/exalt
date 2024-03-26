@@ -1,0 +1,2604 @@
+<?xml version="1.0"?>
+
+<xx>
+<book key="Schoning93">
+ <author>Harald Schoning</author>
+ <title>Anfrageverarbeitung in Komplexobjekt-Datenbanksystemen</title>
+ <publisher>Deutscher Universitatsverlag</publisher>
+ <year>1993</year>
+</book>
+<book key="GrayR93">
+ <author>Jim Gray</author>
+ <author>Andreas Reuter</author>
+ <title>Transaction Processing: Concepts and Techniques</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1993</year>
+ <isbn>1-55860-190-2</isbn>
+ <url>db/books/dbtext/Gray93.html</url>
+</book>
+<book key="BancilhonDK92">
+ <editor>Franois Bancilhon</editor>
+ <editor>Claude Delobel</editor>
+ <editor>Paris C. Kanellakis</editor>
+ <title>Building an Object-Oriented Database System, The Story of O2</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <isbn>1-55860-169-4</isbn>
+ <url>db/books/collections/o2.html</url>
+</book>
+<book key="Celko95">
+ <author>Joe Celko</author>
+ <title>SQL for Smarties: Advanced SQL Programming</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1995</year>
+ <isbn>1-55860-323-9</isbn>
+</book>
+<book key="ONeil94">
+ <author>Patrick E. O'Neil</author>
+ <title>Database Principles, Programming, Performance</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1994</year>
+ <isbn>1-55860-219-4 and 1-55860-392-1</isbn>
+</book>
+<book key="MeltonS93">
+ <author>Jim Melton</author>
+ <author>Alan R. Simon</author>
+ <title>Understanding the New SQL: A Complete Guide</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1993</year>
+ <isbn>1-55860-245-3</isbn>
+ <url>db/books/dbtext/melton93.html</url>
+</book>
+<book key="Quinlan93">
+ <author>J. Ross Quinlan</author>
+ <title>C4.5: Programs for Machine Learning</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1993</year>
+ <isbn>1-55860-238-0</isbn>
+</book>
+<book key="WeissK90">
+ <author>Sholom M. Weiss</author>
+ <author>Casimir A. Kulikowski</author>
+ <title>Computer Systems That Learn: Classification and Prediction Methods from Statistics, Neural Nets, Machine Learning and Expert Systems</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1990</year>
+ <isbn>1-55860-065-5</isbn>
+</book>
+<book key="Cattell93">
+ <author>R. G. G. Cattell</author>
+ <title>The Object Database Standard: ODMG-93</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1993</year>
+ <isbn>1-55860-302-6</isbn>
+</book>
+<book key="Cattell96">
+ <author>R. G. G. Cattell</author>
+ <title>The Object Database Standard: ODMG-93 (Release 1.2)</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+</book>
+<book key="Stonebraker94">
+ <editor>Michael Stonebraker</editor>
+ <title>Readings in Database Systems, Second Edition</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1994</year>
+ <isbn>1-55860-252-6</isbn>
+</book>
+<book key="Stonebraker96">
+ <author>Michael Stonebraker</author>
+ <author>Dorothy Moore</author>
+ <title>Object-Relational DBMSs: The Next Great Wave</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <isbn>1-55860-397-2</isbn>
+</book>
+<book key="ZdonikM90">
+ <editor>Stanley B. Zdonik</editor>
+ <editor>David Maier</editor>
+ <title>Readings in Object-Oriented Database Systems</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1990</year>
+ <isbn>1-55860-000-0</isbn>
+</book>
+<book key="Cattell94">
+ <author>R. G. G. Cattell</author>
+ <title>The Object Database Standard: ODMG-93 (Release 1.1)</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1994</year>
+</book>
+<book key="Elmagarmid92">
+ <editor>Ahmed K. Elmagarmid</editor>
+ <title>Database Transaction Models for Advanced Applications.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <isbn>1-55860-214-3</isbn>
+ <url>db/books/collections/transaction92.html</url>
+</book>
+<book key="Langley94">
+ <author>Pat Langley</author>
+ <title>Elements of Machine Learning.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1994</year>
+ <isbn>1-55860-301-8</isbn>
+</book>
+<book key="Natarajan91">
+ <author>Balas K. Natarajan</author>
+ <title>Machine Learning: A Theoretical Approach.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991</year>
+ <isbn>1-55860-148-1</isbn>
+</book>
+<book key="Chamberlin96">
+ <author>Donald D. Chamberlin</author>
+ <title>Using the New DB2: IBM's Object-Relational Database System.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <isbn>1-55860-373-5</isbn>
+</book>
+<book key="ZanioloCFSSZ97">
+ <author>Carlo Zaniolo</author>
+ <author>Stefano Ceri</author>
+ <author>Christos Faloutsos</author>
+ <author>Richard T. Snodgrass</author>
+ <author>V. S. Subrahmanian</author>
+ <author>Roberto Zicari</author>
+ <title>Advanced Database Systems.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1997</year>
+ <isbn>1-55860-443-X</isbn>
+</book>
+<book key="Gray93">
+ <author>Jim Gray</author>
+ <title>The Benchmark Handbook for Database and Transaction Systems (2nd Edition).</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1993</year>
+</book>
+<book key="WidomC96">
+ <author>Jennifer Widom</author>
+ <author>Stefano Ceri</author>
+ <title>Active Database Systems: Triggers and Rules For Advanced Database Processing.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <isbn>1-55860-304-2</isbn>
+ <url>db/books/collections/widom96.html</url>
+</book>
+<book key="Stonebraker88">
+ <editor>Michael Stonebraker</editor>
+ <title>Readings in Database Systems, First Edition</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>1-934613-65-6</isbn>
+</book>
+<book key="PattersonH90">
+ <author>David A. Patterson</author>
+ <author>John L. Hennessy</author>
+ <title>Computer Architecture: A Quantitative Approach.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1990</year>
+ <isbn>1-55860-188-0</isbn>
+</book>
+<book key="Gray91">
+ <author>Jim Gray</author>
+ <title>The Benchmark Handbook for Database and Transaction Systems (1st Edition).</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991</year>
+ <url>db/books/collections/gray91.html</url>
+</book>
+<incollection key="TurbyfillOB91">
+ <author>Carolyn Turbyfill</author>
+ <author>Cyril U. Orji</author>
+ <author>Dina Bitton</author>
+ <title>AS
+  <sup>3</sup>AP: An ANSI SQL Standard Scaleable and Portable Benchmark for Relational Database Systems.</title>
+ <pages>167-207</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#TurbyfillOB91</url>
+</incollection>
+<incollection key="Nelson91">
+ <author>Neal Nelson</author>
+ <title>The Neal Nelson Database Benchmark
+  <sup>TM</sup>: A Benchmark Based on the Realities of Business.</title>
+ <pages>283-299</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Nelson91</url>
+</incollection>
+<incollection key="ONeil91">
+ <author>Patrick E. O'Neil</author>
+ <title>The Set Query Benchmark.</title>
+ <pages>209-245</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#ONeil91</url>
+</incollection>
+<incollection key="TCP91">
+ <author>TCP</author>
+ <title>TPC Benchmark
+  <sup>TM</sup>A: Standard Specification.</title>
+ <pages>39-78</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#TCP91</url>
+</incollection>
+<incollection key="TCP91a">
+ <author>TCP</author>
+ <title>TPC Benchmark
+  <sup>TM</sup>B: Standard Specification.</title>
+ <pages>79-117</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#TCP91a</url>
+</incollection>
+<incollection key="Cattell91">
+ <author>R. G. G. Cattell</author>
+ <title>An Engineering Database benchmark.</title>
+ <pages>247-281</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Cattell91</url>
+</incollection>
+<incollection key="DeWitt91">
+ <author>David J. DeWitt</author>
+ <title>The Wisconsin Benchmark: Past, Present, and Future.</title>
+ <pages>119-165</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#DeWitt91</url>
+</incollection>
+<incollection key="Sawyer91">
+ <author>Tom Sawyer</author>
+ <title>Doing Your Own Benchmark.</title>
+ <pages>301-329</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Sawyer91</url>
+</incollection>
+<incollection key="Gray91">
+ <author>Jim Gray</author>
+ <title>Introduction.</title>
+ <pages>1-17</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Gray91</url>
+</incollection>
+<incollection key="Franklin91">
+ <author>Michael J. Franklin</author>
+ <title>Benchmark Software Distribution: Release 1.0.</title>
+ <pages>321-324</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Franklin91</url>
+</incollection>
+<incollection key="Serlin91">
+ <author>Omri Serlin</author>
+ <title>The History of DebitCredit and the TPC.</title>
+ <pages>19-38</pages>
+ <year>1991</year>
+ <booktitle>The Benchmark Handbook</booktitle>
+ <url>db/books/collections/gray91.html#Serlin91</url>
+</incollection>
+<book key="Walther87">
+ <author>Christoph Walther</author>
+ <title>A Many-Sorted Calculus Based on Resolution and Paramodulation.</title>
+ <publisher>Pitman / Morgan Kaufmann</publisher>
+ <year>1987</year>
+ <isbn>0-273-08718-5</isbn>
+</book>
+<incollection key="AgrawalA92">
+ <author>Divyakant Agrawal</author>,
+ <author>Amr El Abbadi</author>
+ <title>Transaction Management in Database Systems</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>1-31</pages>
+ <url>db/books/collections/transaction92.html#AgrawalA92</url>
+</incollection>
+<incollection key="BuchmannOGM92">
+ <author>Alejandro P. Buchmann</author>
+ <author>M. Tamer Ozsu</author>
+ <author>Dimitrios Georgakopoulos</author>
+ <author>Frank Manola</author>
+ <title>A Transaction Model for Active Distributed Object Systems</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>123-158</pages>
+ <url>db/books/collections/transaction92.html#BuchmannOGM92</url>
+</incollection>
+<incollection key="ChrysanthisR92">
+ <author>Panos K. Chrysanthis</author>,
+ <author>Krithi Ramamritham</author>,
+ <title>ACTA: The SAGA Continues</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>349-397</pages>
+ <url>db/books/collections/transaction92.html#ChrysanthisR92</url>
+</incollection>
+<incollection key="ElmagarmidLMB92">
+ <author>Ahmed K. Elmagarmid</author>
+ <author>Yungho Leu</author>
+ <author>James G. Mullen</author>
+ <author>Omran A. Bukhres</author>
+ <title>Introduction to Advanced Transaction Models</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>33-52</pages>
+ <url>db/books/collections/transaction92.html#ElmagarmidLMB92</url>
+</incollection>
+<incollection key="HeilerHZBR92">
+ <author>Sandra Heiler</author>
+ <author>Sara Haradhvala</author>
+ <author>Stanley B. Zdonik</author>
+ <author>Barbara T. Blaustein</author>
+ <author>Arnon Rosenthal</author>
+ <title>A Flexible Framework for Transaction Managemennt in Engineering Environments</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>87-121</pages>
+ <url>db/books/collections/transaction92.html#HeilerHZBR92</url>
+</incollection>
+<incollection key="KaiserP92">
+ <author>Gail E. Kaiser</author>
+ <author>Calton Pu</author>
+ <title>Dynamic Restructuring of Transactions</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>265-295</pages>
+ <url>db/books/collections/transaction92.html#KaiserP92</url>
+</incollection>
+<incollection key="KuhnPE92">
+ <author>eva Kuhn</author>
+ <author>Franz Puntigam</author>
+ <author>Ahmed K. Elmagarmid</author>
+ <title>Multidatabase Transaction and Query Processing in Logic</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>297-348</pages>
+ <url>db/books/collections/transaction92.html#KuhnPE92</url>
+</incollection>
+<incollection key="MuthRKN92">
+ <author>Peter Muth</author>
+ <author>Thomas C. Rakow</author>
+ <author>Wolfgang Klas</author>
+ <author>Erich J. Neuhold</author>
+ <title>A Transaction Model for an Open Publication Environment</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>159-218</pages>
+ <url>db/books/collections/transaction92.html#MuthRKN92</url>
+</incollection>
+<incollection key="NodineRZ92">
+ <author>Marian H. Nodine</author>
+ <author>Sridhar Ramaswamy</author>
+ <author>Stanley B. Zdonik</author>
+ <title>A Cooperative Transaction Model for Design Databases</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>53-85</pages>
+ <url>db/books/collections/transaction92.html#NodineRZ92</url>
+</incollection>
+<incollection key="ShethRK92">
+ <author>Amit P. Sheth</author>
+ <author>Marek Rusinkiewicz</author>
+ <author>George Karabatis</author>
+ <title>Using Polytransactions to Manage Interdependent Data</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>555-581</pages>
+ <url>db/books/collections/transaction92.html#ShethRK92</url>
+</incollection>
+<incollection key="UnlandS92">
+ <author>Rainer Unland</author>
+ <author>Gunter Schlageter</author>
+ <title>Facility for Non Standard Database Systems</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>399-466</pages>
+ <url>db/books/collections/transaction92.html#UnlandS92</url>
+</incollection>
+<incollection key="VeijalainenEH92">
+ <author>Jari Veijalainen</author>
+ <author>Frank Eliassen</author>
+ <author>Bernhard Holtkamp</author>
+ <title>The S-transaction Model</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>467-513</pages>
+ <url>db/books/collections/transaction92.html#VeijalainenEH92</url>
+</incollection>
+<incollection key="WachterR92">
+ <author>Helmut Wachter</author>
+ <author>Andreas Reuter</author>
+ <title>The ConTract Model</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>219-263</pages>
+ <url>db/books/collections/transaction92.html#WachterR92</url>
+</incollection>
+<incollection key="WeikumS92">
+ <author>Gerhard Weikum</author>
+ <author>Hans-Jorg Schek</author>
+ <title>Concepts and Applications of Multilevel Transactions and Open Nested Transactions</title>
+ <booktitle>Database Transaction Models for Advanced Applications</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1992</year>
+ <pages>515-553</pages>
+ <url>db/books/collections/transaction92.html#WeikumS92</url>
+</incollection>
+<incollection key="ToporS88">
+ <author>Rodney W. Topor</author>
+ <author>Liz Sonenberg</author>
+ <title>On Domain Independent Databases.</title>,
+ <pages>217-240</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#ToporS88</url>
+</incollection>
+<incollection key="Przymusinski88">
+ <author>Teodor C. Przymusinski</author>
+ <title>On the Declarative Semantics of Deductive Databases and Logic Programs.</title>,
+ <pages>193-216</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Przymusinski88</url>
+</incollection>
+<incollection key="Lifschitz88">
+ <author>Vladimir Lifschitz</author>
+ <title>On the Declarative Semantics of Logic Programs with Negation.</title>,
+ <pages>177-192</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Lifschitz88</url>
+</incollection>
+<incollection key="Gelder88">
+ <author>Allen Van Gelder</author>
+ <title>Negation as Failure Using Tight Derivations for General Logic Programs.</title>,
+ <pages>149-176</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Gelder88</url>
+</incollection>
+<incollection key="AptBW88">
+ <author>Krzysztof R. Apt</author>
+ <author>Howard A. Blair</author>
+ <author>Adrian Walker</author>
+ <title>Towards a Theory of Declarative Knowledge.</title>,
+ <pages>89-148</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#AptBW88</url>
+</incollection>
+<incollection key="Shepherdson88">
+ <author>John C. Shepherdson</author>
+ <title>Negation in Logic Programming.</title>,
+ <pages>19-88</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Shepherdson88</url>
+</incollection>
+<incollection key="Sagiv88">
+ <author>Yehoshua Sagiv</author>
+ <title>Optimizing Datalog Programs.</title>,
+ <pages>659-698</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Sagiv88</url>
+</incollection>
+<incollection key="SadriK88">
+ <author>Fariba Sadri</author>
+ <author>Robert A. Kowalski</author>
+ <title>A Theorem-Proving Approach to Database Integrity.</title>
+ <pages>313-362</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#SadriK88</url>
+</incollection>
+<incollection key="ManchandraW88">
+ <author>Sanjay Manchandra</author>
+ <author>David Scott Warren</author>
+ <title>A Logic-based Language for Database Updates.</title>
+ <pages>363-394</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#ManchandraW88</url>
+</incollection>
+<incollection key="BancilhonR88">
+ <author>Francois Bancilhon</author>
+ <author>Raghu Ramakrishnan</author>
+ <title>Performance Evaluation of Data Intensive Logic Programs.</title>
+ <pages>439-517</pages>
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#BancilhonR88</url>
+</incollection>
+<incollection key="ChakravarthyGM88">
+ <author>Upen S. Chakravarthy</author>
+ <author>John Grant</author>
+ <author>Jack Minker</author>
+ <title>Foundations of Semantic Query Optimization for Deductive Databases</title>
+ <pages>243-273</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#ChakravarthyGM88</url>
+</incollection>
+<incollection key="Imielinski88">
+ <author>Tomasz Imielinski</author>
+ <title>Intelligent Query Answering in Rule Based Systems</title>,
+ <pages>275-312</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Imielinski88</url>
+</incollection>
+<incollection key="Kanellakis88">
+ <author>Paris C. Kanellakis</author>
+ <title>Logic Programming and Parallel Complexity</title>,
+ <pages>547-585</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#Kanellakis88</url>
+</incollection>
+<incollection key="HenschenP88">
+ <author>Lawrence J. Henschen</author>
+ <author>Hyung-Sik Park</author>
+ <title>Compiling the GCWA in Indefinite Deductive Databases.</title>,
+ <pages>395-438</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#HenschenP88</url>
+</incollection>
+<incollection key="ThomRN88">
+ <author>James A. Thom</author>
+ <author>Kotagiri Ramamohanarao</author>
+ <author>Lee Naish</author>
+ <title>A Superjoin Algorithm for Deductive Databases.</title>,
+ <pages>519-543</pages>,
+ <booktitle>Foundations of Deductive Databases and Logic Programming.</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html#ThomRN88</url>
+</incollection>
+<book key="FreytagMV91">
+ <editor>Johann Christoph Freytag</editor>
+ <editor>David Maier</editor>
+ <editor>Gottfried Vossen</editor>
+ <title>Query Processing for Advanced Database Systems, Selected Contributions from a Workshop on "Query Processing in Object-Oriented, Complex-Object and Nested Relation Databases", Interationales Begegnungs- und Forschungszentrum fur Informatik, Schloss Dagstuhl, Germany, June 1991</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1994</year>
+ <isbn>1-55860-271-2</isbn>
+ <url>db/books/collections/dagstuhl91.html</url>
+</book>
+<incollection key="KemperM91">
+ <author>Alfons Kemper</author>
+ <author>Guido Moerkotte</author>
+ <title>Query Optimization in Object Bases: Exploiting Relational Techniques.</title>
+ <pages>63-98</pages>,
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#KemperM91</url>
+</incollection>
+<incollection key="GraefeCDMW91">
+ <author>Goetz Graefe</author>
+ <author>Richard L. Cole</author>
+ <author>Diane L. Davison</author>
+ <author>William J. McKenna</author>
+ <author>Richard H. Wolniewicz</author>
+ <title>Extensible Query Optimization and Parallel Execution in Volcano.</title>
+ <pages>305-335</pages>,
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#GraefeCDMW91</url>
+</incollection>
+<incollection key="DemuthGG91">
+ <author>Birgit Demuth</author>
+ <author>Andreas Geppert</author>
+ <author>Thorsten Gorchs</author>
+ <title>Algebraic Query Optimization in the CoOMS Structurally Object-Oriented Database System.</title>
+ <pages>121-142</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#DemuthGG91</url>
+</incollection>
+<incollection key="MaierDKVGM91">
+ <author>David Maier</author>
+ <author>Scott Daniels</author>
+ <author>Thomas Keller</author>
+ <author>Bennet Vance</author>
+ <author>Goetz Graefe</author>
+ <author>William J. McKenna</author>
+ <title>Challenges for Query Processing in Object-Oriented Databases.</title>
+ <pages>337-380</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#MaierDKVGM91</url>
+</incollection>
+<incollection key="MitschangP91">
+ <author>Bernhard Mitschang</author>
+ <author>Hamid Pirahesh</author>
+ <title>Integration of Composite Objects into Relational Query Processing: The SQL/XNF Approach.</title>
+ <pages>35-62</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#MitschangP91</url>
+</incollection>
+<incollection key="Schoning91">
+ <author>Harald Schoning</author>
+ <title>Optimization of Complex-Object Queries in PRIMA - Statement of Problems.</title>
+ <pages>99-119</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#Schoning91</url>
+</incollection>
+<incollection key="BergK91">
+ <author>Carel A. van den Berg</author>
+ <author>Martin L. Kersten</author>
+ <title>An Analysis of a Dynamic Query Optimization Scheme for Different Data Distributions.</title>
+ <pages>449-472</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#BergK91</url>
+</incollection>
+<incollection key="Bertino91">
+ <author>Elisa Bertino</author>
+ <title>A Survey of Indexing Techniques for Object-Oriented Database Management Systems.</title>
+ <pages>383-418</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#Bertino91</url>
+</incollection>
+<incollection key="CluetD91">
+ <author>Sophie Cluet</author>
+ <author>Claude Delobel</author>
+ <title>Towards a Unification of Rewrite-Based Optimization Techniques for Object-Oriented Queries.</title>
+ <pages>245-272</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#CluetD91</url>
+</incollection>
+<incollection key="GyssensSG91">
+ <author>Marc Gyssens</author>
+ <author>Lawrence V. Saxton</author>
+ <author>Dirk Van Gucht</author>
+ <title>Tagging as an Alternative to Object Creation.</title>
+ <pages>201-242</pages>,
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#GyssensSG91</url>
+</incollection>
+<incollection key="JeusfeldS91">
+ <author>Manfred A. Jeusfeld</author>
+ <author>Martin Staudt</author>
+ <title>Query Optimization in Deductive Object Bases.</title>
+ <pages>145-176</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#JeusfeldS91</url>
+</incollection>
+<incollection key="KulkarniBDKM91">
+ <author>Krishna G. Kulkarni</author>
+ <author>Jonathan Bauer</author>
+ <author>Umeshwar Dayal</author>
+ <author>Mike Kelley</author>
+ <author>Jim Melton</author>
+ <title>ADT-based Type System for SQL.</title>
+ <pages>3-33</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#KulkarniBDKM91</url>
+</incollection>
+<incollection key="LausenM91">
+ <author>Georg Lausen</author>
+ <author>Beate Marx</author>
+ <title>Evaluation Aspects of an Object-oriented Deductive Database Language.</title>
+ <pages>177-200</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#LausenM91</url>
+</incollection>
+<incollection key="Scholl91">
+ <author>Marc H. Scholl</author>
+ <title>Physical Database Design for an Object-Oriented Database System.</title>
+ <pages>419-447</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#Scholl91</url>
+</incollection>
+<incollection key="SteenhagenA91">
+ <author>Hennie J. Steenhagen</author>
+ <author>Peter M. G. Apers</author>
+ <title>Implementation of the Object-Oriented Data Model TM.</title>
+ <pages>273-303</pages>
+ <booktitle>Query Processing for Advanced Database Systems, Dagstuhl</booktitle>,
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1991/1994</year>
+ <url>db/books/collections/dagstuhl91.html#SteenhagenA91</url>
+</incollection>
+<book key="Stonebraker98">
+ <editor>Michael Stonebraker</editor>
+ <editor>Joseph M. Hellerstein</editor>
+ <title>Readings in Database Systems, Third Edition</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1998</year>
+ <isbn>1-55860-523-1</isbn>
+</book>
+<book key="BernsteinN96">
+ <author>Philip A. Bernstein</author>
+ <author>Eric Newcomer</author>
+ <title>Principles of Transaction Processing for Systems Professionals.</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <isbn>1-55860-415-4</isbn>
+</book>
+<incollection key="CeriFPT96">
+ <author>Stefano Ceri</author>
+ <author>Piero Fraternali</author>
+ <author>Stefano Paraboschi</author>
+ <author>Letizia Tanca</author>
+ <title>Active Rule Management in Chimera</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>151-176</pages>
+ <url>db/books/collections/widom96.html#CeriFPT96</url>
+</incollection>
+<incollection key="DayalBC96">
+ <author>Umeshwar Dayal</author>
+ <author>Alejandro P. Buchmann</author>
+ <author>Sharma Chakravarthy</author>
+ <title>The HiPAC Project</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>177-206</pages>
+ <url>db/books/collections/widom96.html#DayalBC96</url>
+</incollection>
+<incollection key="GehaniJ96">
+ <author>Narain H. Gehani</author>
+ <author>H. V. Jagadish</author>
+ <title>Active Database Facilities in Ode</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>207-232</pages>
+ <url>db/books/collections/widom96.html#GehaniJ96</url>
+</incollection>
+<incollection key="Hanson96">
+ <author>Eric N. Hanson</author>
+ <title>The Ariel Project</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>63-86</pages>
+ <url>db/books/collections/widom96.html#Hanson96</url>
+</incollection>
+<incollection key="PotamianosS96">
+ <author>Spyros Potamianos</author>,
+ <author>Michael Stonebraker</author>
+ <title>The POSTGRES Rules System</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>43-61</pages>
+ <url>db/books/collections/widom96.html#PotamianosS96</url>
+</incollection>
+<incollection key="SimonK96">
+ <author>Eric Simon</author>,
+ <author>Jerry Kiernan</author>
+ <title>The A-RDL System</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>111-149</pages>
+ <url>db/books/collections/widom96.html#SimonK96</url>
+</incollection>
+<incollection key="Widom96">
+ <author>Jennifer Widom</author>
+ <title>The Starburst Rule System</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>87-109</pages>
+ <url>db/books/collections/widom96.html#Widom96</url>
+</incollection>
+<incollection key="WidomC96">
+ <author>Jennifer Widom</author>
+ <author>Stefano Ceri</author>
+ <title>Introduction to Active Database Systems</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>1-41</pages>
+ <url>db/books/collections/widom96.html#WidomC96</url>
+</incollection>
+<incollection key="WidomC96a">
+ <author>Jennifer Widom</author>
+ <author>Stefano Ceri</author>
+ <title>Standards and Commercial Systems</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>233-258</pages>
+ <url>db/books/collections/widom96.html#WidomC96a</url>
+</incollection>
+<incollection key="WidomC96b">
+ <author>Jennifer Widom</author>
+ <author>Stefano Ceri</author>
+ <title>Applications of Active Databases</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>259-291</pages>
+ <url>db/books/collections/widom96.html#WidomC96b</url>
+</incollection>
+<incollection key="WidomC96c">
+ <author>Jennifer Widom</author>
+ <author>Stefano Ceri</author>
+ <title>Conclusions and Future Directions</title>
+ <booktitle>Active Database Systems: Triggers and Rules For Advanced Database Processing</booktitle>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1996</year>
+ <pages>293-302</pages>
+ <url>db/books/collections/widom96c.html#WidomC96</url>
+</incollection>
+<book key="Minker88">
+ <editor>Jack Minker</editor>
+ <title>Foundations of Deductive Databases and Logic Programming</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1988</year>
+ <isbn>0-934613-40-0</isbn>
+ <url>db/books/collections/minker88.html</url>
+</book>
+<book key="Chamberlin98">
+ <author>Donald D. Chamberlin</author>
+ <title>A Complete Guide to DB2 Universal Database</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1998</year>
+ <isbn>1-55860-482-0</isbn>
+</book>
+<incollection key="Larcheveque92">
+ <author>Jean-Marie Larchevsque</author>
+ <title>Incremental Compilation in O2.</title>
+ <pages>541-554</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#Larcheveque92</url>
+</incollection>
+<incollection key="BancilhonCD92">
+ <author>Francois Bancilhon</author>
+ <author>Sophie Cluet</author>
+ <author>Claude Delobel</author>
+ <title>A Query Language for O2.</title>
+ <pages>234-255</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#BancilhonCD92</url>
+</incollection>
+<incollection key="LecluseRV92">
+ <author>Christophe Lecluse</author>
+ <author>Philippe Richard</author>
+ <author>Fernando Velez</author>
+ <title>O2, an Object-Oriented Data Model.</title>
+ <pages>77-97</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#LecluseRV92</url>
+</incollection>
+<incollection key="CellaryJ92">
+ <author>Wojciech Cellary</author>
+ <author>Genevieve Jomier</author>
+ <title>Consistency of Versions in Object-Oriented Databases.</title>
+ <pages>447-462</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#CellaryJ92</url>
+</incollection>
+<incollection key="Deux92">
+ <author>O. Deux</author>
+ <title>The Story of
+  <ref href="db/systems/o2.html">O2</ref>.</title>
+ <pages>21-57</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#Deux92</url>
+</incollection>
+<incollection key="Arango92">
+ <author>Gustavo Arango</author>
+ <title>Self-explained Toolboxes.</title>
+ <pages>555-568</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#Arango92</url>
+</incollection>
+<incollection key="AtkinsonBDDMZ92">
+ <author>Malcolm P. Atkinson</author>
+ <author>Francois Bancilhon</author>
+ <author>David J. DeWitt</author>
+ <author>Klaus R. Dittrich</author>
+ <author>David Maier</author>
+ <author>Stanley B. Zdonik</author>
+ <title>The Object-Oriented Database System Manifesto.</title>
+ <pages>3-20</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#AtkinsonBDDMZ92</url>
+</incollection>
+<incollection key="AbiteboulKW92">
+ <author>Serge Abiteboul</author>
+ <author>Paris C. Kanellakis</author>
+ <author>Emmanuel Waller</author>
+ <title>Method Schemas.</title>
+ <pages>128-147</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#AbiteboulKW92</url>
+</incollection>
+<incollection key="DeWittFMV92">
+ <author>David J. DeWitt</author>
+ <author>Philippe Futtersack</author>
+ <author>David Maier</author>
+ <author>Fernando Velez</author>
+ <title>Three Alternative Workstation-Server Architectures.</title>
+ <pages>411-446</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#DeWittFMV92</url>
+</incollection>
+<incollection key="BenzakenDH92">
+ <author>Veronique Benzaken</author>
+ <author>Claude Delobel</author>
+ <author>Gilbert Harrus</author>
+ <title>Clustering Strategies in O2: An Overview.</title>
+ <pages>385-410</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#BenzakenDH92</url>
+</incollection>
+<incollection key="SchollV92">
+ <author>Michel Scholl</author>
+ <author>Agnes Voisard</author>
+ <title>Geographic Applications: An Experience with O2.</title>
+ <pages>585-618</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#SchollV92</url>
+</incollection>
+<incollection key="PlateauBLMT92">
+ <author>Didier Plateau</author>
+ <author>Patrick Borras</author>
+ <author>Didier Leveque</author>
+ <author>Jean-Claude Mamou</author>
+ <author>Didier Tallot</author>
+ <title>Building User Interfaces with Looks.</title>
+ <pages>496-507</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#PlateauBLMT92</url>
+</incollection>
+<incollection key="BancilhonM92">
+ <author>Francois Bancilhon</author>
+ <author>David Maier</author>
+ <title>Introduction to Languages.</title>
+ <pages>185-194</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#BancilhonM92</url>
+</incollection>
+<incollection key="KanellakisLR92">
+ <author>Paris C. Kanellakis</author>
+ <author>Christophe Lecluse</author>
+ <author>Philippe Richard</author>
+ <title>Introduction to the Data Model.</title>
+ <pages>61-76</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#KanellakisLR92</url>
+</incollection>
+<incollection key="CluetDLR92">
+ <author>Sophie Cluet</author>
+ <author>Claude Delobel</author>
+ <author>Christophe Lecluse</author>
+ <author>Philippe Richard</author>
+ <title>Reloop, an Algebra Based Query Language for an Object-Oriented Database System.</title>
+ <pages>256-277</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#CluetDLR92</url>
+</incollection>
+<incollection key="LecluseR92">
+ <author>Christophe Lecluse</author>
+ <author>Philippe Richard</author>
+ <title>The O2 Database Programming Language.</title>
+ <pages>195-214</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#LecluseR92</url>
+</incollection>
+<incollection key="GrosselinJ92">
+ <author>Constance Grosselin</author>
+ <author>T. Mark James</author>
+ <title>A Guided Tour of an O2 Applications.</title>
+ <pages>571-584</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#GrosselinJ92</url>
+</incollection>
+<incollection key="AbiteboulK92">
+ <author>Serge Abiteboul</author>
+ <author>Paris C. Kanellakis</author>
+ <title>Object Identity as a Query Language Primitive.</title>
+ <pages>97-127</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#AbiteboulK92</url>
+</incollection>
+<incollection key="Zicari92">
+ <author>Roberto Zicari</author>
+ <title>A Framework for Schema Updates In An Object-Oriented Database System.</title>
+ <pages>146-182</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#Zicari92</url>
+</incollection>
+<incollection key="GamermanLV92">
+ <author>Sophie Gamerman</author>
+ <author>Catherine Lanquette</author>
+ <author>Fernando Velez</author>
+ <title>Using Database Applications to Compare Programming Languages.</title>
+ <pages>278-324</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#GamermanLV92</url>
+</incollection>
+<incollection key="VelezBD92">
+ <author>Fernando Velez</author>
+ <author>Guy Bernard</author>
+ <author>Vineeta Darnis</author>
+ <title>The O2 Object Manager: An Overview.</title>
+ <pages>343-368</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#VelezBD92</url>
+</incollection>
+<incollection key="DelobelV92">
+ <author>Claude Delobel</author>
+ <author>Fernando Velez</author>
+ <title>Introduction to the System.</title>
+ <pages>327-342</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#DelobelV92</url>
+</incollection>
+<incollection key="CartF92">
+ <author>Michele Cart</author>
+ <author>Jean Ferrie</author>
+ <title>Integrating Concurrency Control into an Object-Oriented Database System.</title>
+ <pages>463-485</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#CartF92</url>
+</incollection>
+<incollection key="BorrasDPT92">
+ <author>Patrick Borras</author>
+ <author>Anne Doucet</author>
+ <author>Patrick Pfeffer</author>
+ <author>Didier Tallot</author>
+ <title>The O2 Programming Environment.</title>
+ <pages>508-522</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#BorrasDPT92</url>
+</incollection>
+<incollection key="BernardS92">
+ <author>Guy Bernard</author>
+ <author>Dominique Steve</author>
+ <title>Handling Distribution in the O2 System.</title>
+ <pages>369-384</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#BernardS92</url>
+</incollection>
+<incollection key="DelobelKP92">
+ <author>Claude Delobel</author>
+ <author>Paris C. Kanellakis</author>
+ <author>Didier Plateau</author>
+ <title>Introduction to the Programming Environment.</title>
+ <pages>489-495</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#DelobelKP92</url>
+</incollection>
+<incollection key="Barbedette92">
+ <author>Gilles Barbedette</author>
+ <title>LISP O2: a Persistent Object-Oriented Lisp.</title>
+ <pages>215-233</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#Barbedette92</url>
+</incollection>
+<incollection key="DoucetP92">
+ <author>Anne Doucet</author>
+ <author>Patrick Pfeffer</author>
+ <title>Using a Database System to Implement a Debugger.</title>
+ <pages>523-540</pages>
+ <year>1992</year>
+ <booktitle>Building an Object-Oriented Database System, The Story of O2</booktitle>
+ <url>db/books/collections/o2.html#DoucetP92</url>
+</incollection>
+<book key="BrodieS95">
+ <author>Michael L. Brodie</author>
+ <author>Michael Stonebraker</author>
+ <title>Migrating Legacy Systems: Gateways, Interfaces, and the Incremental Approach</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1995</year>
+</book>
+<book key="Snodgrass99">
+ <author>Richard T. Snodgrass</author>
+ <title>Developing Time-Oriented Database Applications in SQL</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1999</year>
+ <isbn>1-55860-436-7</isbn>
+ <url>http://www.mkp.com/books_catalog/1-55860-436-7.asp</url>
+</book>
+<book key="Touretzky86">
+ <author>David S. Touretzky</author>
+ <title>The Mathematics of Inheritance Systems</title>
+ <publisher href="db/publishers/mkp.html">Morgan Kaufmann</publisher>
+ <year>1986</year>
+ <isbn>0-934613-06-0</isbn>
+</book>
+<book key="KemperM94">
+ <author>Alfons Kemper</author>
+ <author>Guido Moerkotte</author>
+ <title>Object-Oriented Database Management: Applications in Engineering and Computer Science</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1994</year>
+ <isbn>1-13-629239-9</isbn>
+ <url>db/books/dbtext/kemper94.html</url>
+</book>
+<book key="Shasha92">
+ <author>Dennis Shasha</author>
+ <title>Database Tuning - A Principled Approach</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1992</year>
+ <isbn>1-13-205246-6</isbn>
+ <url>db/books/dbtext/shasha92.html</url>
+</book>
+<book key="CoffmanD73">
+ <author>Edward G. Coffman</author>
+ <author>Peter J. Denning</author>
+ <title>Operating Systems Theory</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1973</year>
+</book>
+<book key="BukhresE96">
+ <editor>Omran A. Bukhres</editor>,
+ <editor>Ahmed K. Elmagarmid</editor>,
+ <title>Object-Oriented Multidatabase Systems: A Solution for Advanced Applications</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1996</year>
+ <isbn>1-13-103813-3</isbn>
+</book>
+<book key="PapadimitriouS82">
+ <author>Christos H. Papadimitriou</author>
+ <author>Kenneth Steiglitz</author>
+ <title>Combinatorial Optimization: Algorithms and Complexity</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1982</year>
+ <isbn>0-13-152462-3</isbn>
+</book>
+<book key="RumbaughBPEL91">
+ <author>James E. Rumbaugh</author>
+ <author>Michael R. Blaha</author>
+ <author>William J. Premerlani</author>
+ <author>Frederick Eddy</author>
+ <author>Willam Lorensen</author>
+ <title>Object-Oriented Modeling and Design</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1991</year>
+ <isbn>1-13-630054-5</isbn>
+</book>
+<book key="FrakesB92">
+ <editor>William B. Frakes</editor>
+ <editor>Ricardo A. Baeza-Yates</editor>
+ <title>Information Retrieval: Data Structures &amp; Algorithms</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1992</year>
+ <isbn>1-13-463837-9</isbn>
+</book>
+<book key="Jones87">
+ <author>Simon L. Peyton Jones</author>
+ <title>The Implementation of Functional Programming Languages.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1987</year>
+</book>
+<book key="JainD88">
+ <author>Anil K. Jain</author>
+ <author>Richard C. Dubes</author>
+ <title>Algorithms for Clustering Data</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1988</year>
+</book>
+<book key="Tomlin90">
+ <author>C. Dana Tomlin</author>
+ <title>Geographic Information Systems and Cartographic Modelling.</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1990</year>
+ <isbn>0-13-350927-3</isbn>
+</book>
+<book key="WakemanJ93">
+ <author>Lois Wakeman</author>
+ <author>Jonathan Jowett</author>
+ <title>PCTE - The Standard for Open Repositories.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1993</year>
+ <isbn>0-13-065566-X</isbn>
+</book>
+<book key="BestR85">
+ <author>Michael J. Best</author>
+ <author>Klaus Ritter</author>
+ <title>Linear Programming: Active Set Analysis and Computer Programs.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1985</year>
+ <isbn>0-13-536996-7</isbn>
+</book>
+<book key="UllmanW97">
+ <author>Jeffrey D. Ullman</author>,
+ <author>Jennifer Widom</author>,
+ <title>A First Course in Database Systems.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1997</year>
+ <isbn>1-13-861337-0</isbn>
+</book>
+<book key="GroskyJM97">
+ <editor>William I. Grosky</editor>,
+ <editor>Ramesh Jain</editor>,
+ <editor>Rajiv Mehrotra</editor>,
+ <title>Handbook of Multimedia Information Management.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1997</year>
+ <month>April</month>
+ <isbn>0-13-207325-0</isbn>
+ <url>db/books/collections/GroskyJM97.html</url>
+</book>
+<book key="OzsuV91">
+ <author>M. Tamer Ozsu</author>
+ <author>Patrick Valduriez</author>
+ <title>Principles of Distributed Database Systems.</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1991</year>
+ <isbn>1-13-715681-2</isbn>
+</book>
+<book key="LoomisC97">
+ <editor>Mary E. S. Loomis</editor>,
+ <editor>Akmal B. Chaudhri</editor>,
+ <title>Object Databases in Practice.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1997</year>
+ <isbn>0-13-899725-X</isbn>
+</book>
+<book key="Salzberg88">
+ <author>Betty Salzberg</author>
+ <title>File Structures: An Analytic Approach.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1988</year>
+ <isbn>0-13-314550-6</isbn>
+</book>
+<book key="Dijkstra76">
+ <author>Edsger W. Dijkstra</author>
+ <title>A Discipline of Programming.</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1976</year>
+</book>
+<book key="KernighanR88">
+ <author>Brian W. Kernighan</author>
+ <author>Dennis Ritchie</author>
+ <title>The C Programming Language, Second Edition</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1988</year>
+ <isbn>0-13-110370-9</isbn>
+</book>
+<book key="Rodgers90">
+ <author>Ulka Rodgers</author>
+ <title>UNIX Database Management Systems</title>
+ <publisher>Yourdon Press / Prentice-Hall</publisher>
+ <year>1990</year>
+ <isbn>0-13-945593-0</isbn>
+</book>
+<book key="Meyer97">
+ <author>Bertrand Meyer</author>
+ <title>Object-Oriented Software Construction (2nd Ed.)</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1997</year>
+ <isbn>0-13-629155-4</isbn>
+</book>
+<book key="CardenasM90">
+ <editor>Alfonso F. Cardenas</editor>
+ <editor>Dennis McLeod</editor>
+ <title>Research Foundations in Object-Oriented and Semantic Database System</title>
+ <publisher>Prentice-Hall</publisher>
+ <year>1990</year>
+ <isbn>0-13-806340-0</isbn>
+ <url>db/books/collections/cardenas90.html</url>
+</book>
+<incollection key="HullK90">
+ <author>Richard Hull</author>
+ <author>Roger King</author>
+ <title>A Tutorial on Semantic Database Modeling</title>
+ <pages>1-33</pages>
+ <booktitle>Research Foundations in Object-Oriented and Semantic Database System</booktitle>
+ <publisher>Prentice-Hall</publisher>
+ <year>1990</year>
+ <url>db/books/collections/cardenas90.html#HullK90</url>
+</incollection>
+<incollection key="HammerM90">
+ <author>Michael Hammer</author>
+ <author>Dennis McLeod</author>
+ <title>Database Description with SDM: A Semantic Database Model</title>
+ <pages>34-69</pages>
+ <booktitle>Research Foundations in Object-Oriented and Semantic Database System</booktitle>
+ <publisher>Prentice-Hall</publisher>
+ <year>1990</year>
+ <url>db/books/collections/cardenas90.html#HammerM90</url>
+</incollection>
+<book key="KernighanR78">
+ <author>Brian W. Kernighan</author>
+ <author>Dennis Ritchie</author>
+ <title>The C Programming Language</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1978</year>
+ <isbn>0-13-110163-3</isbn>
+</book>
+<book key="Tanenbaum81">
+ <author>Andrew S. Tanenbaum</author>
+ <title>Computer Networks</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1981</year>
+ <isbn>0-13-165183-8</isbn>
+</book>
+<book key="Tanenbaum92">
+ <author>Andrew S. Tanenbaum</author>
+ <title>Modern Operating Systems</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1992</year>
+ <isbn>0-13-588187-0</isbn>
+</book>
+<book key="Bach86">
+ <author>Maurice J. Bach</author>
+ <title>The Design of the UNIX Operating System.</title>
+ <publisher href="db/publishers/ph.html">Prentice-Hall</publisher>
+ <year>1986</year>
+ <isbn>0-13-201799-7</isbn>
+</book>
+<book key="Franklin96">
+ <author>Michael J. Franklin</author>
+ <title>Client Data Caching: A Foundation for High Performance Object Oriented Database Systems</title>
+ <publisher>Kluwer</publisher>
+ <year>1996</year>
+ <isbn>0-7923-9701-0</isbn>
+</book>
+<book key="Snodgrass95">
+ <editor>Richard T. Snodgrass</editor>
+ <title>The TSQL2 Temporal Query Language</title>
+ <publisher>Kluwer</publisher>
+ <year>1995</year>
+ <isbn>0-7923-9614-6</isbn>
+ <url>db/books/collections/snodgrass95.html</url>
+</book>
+<incollection key="KlineSL95">
+ <author>Nick Kline</author>
+ <author>Richard T. Snodgrass</author>
+ <author>T. Y. Cliff Leung</author>
+ <title>Aggregates</title>
+ <booktitle>The TSQL2 Temporal Query Language</booktitle>
+ <publisher>Kluwer</publisher>
+ <year>1995</year>
+ <isbn>0-7923-9614-6</isbn>
+ <pages>395-425</pages>
+ <chapter>21</chapter>
+ <url>db/books/collections/snodgrass95.html#KlineSL95</url>
+</incollection>
+<incollection key="SooJS95">
+ <author>Michael D. Soo</author>
+ <author>Christian S. Jensen</author>
+ <author>Richard T. Snodgrass</author>
+ <title>An Algebra for TSQL2</title>
+ <booktitle>The TSQL2 Temporal Query Language</booktitle>
+ <publisher>Kluwer</publisher>
+ <year>1995</year>
+ <isbn>0-7923-9614-6</isbn>
+ <pages>505-546</pages>
+ <chapter>27</chapter>
+ <url>db/books/collections/snodgrass95.html#SooJS95</url>
+</incollection>
+<book key="CacaceL96">
+ <author>Filippo Cacace</author>
+ <author>Gianfranco Lamperti</author>
+ <title>Advanced Relational Programming: Mathematics and Its Applications.</title>
+ <series>Mathematics and Its Applications</series>
+ <volume>371</volume>
+ <publisher>Kluwer</publisher>
+ <year>1996</year>
+ <isbn>0-7923-4081-7</isbn>
+</book>
+<book key="JajodiaK97">
+ <editor>Sushil Jajodia</editor>,
+ <editor>Larry Kerschberg</editor>,
+ <title>Advanced Transaction Models and Architectures</title>
+ <publisher>Kluwer</publisher>
+ <year>1997</year>
+ <isbn>0-7923-9880-7</isbn>
+ <url>db/books/collections/JajodiaK97.html</url>
+</book>
+<book key="Rosenblum95">
+ <author>Mendel Rosenblum</author>
+ <title>The Design and Implementation of a Log-Structured File-System.</title>
+ <publisher>Kluwer</publisher>
+ <year>1995</year>
+ <isbn>0-7923-9541-7</isbn>
+</book>
+<book key="Bertino97">
+ <author>Elisa Bertino</author>
+ <author>Beng Chin Ooi</author>
+ <author>Ron Sacks-Davis</author>
+ <author>Kian-Lee Tan</author>
+ <author>Justin Zobel</author>
+ <author>Boris Shidlovsky</author>
+ <author>Barbara Catania</author>
+ <title>Indexing Techniques for Advanced Database Systems</title>
+ <publisher>Kluwer</publisher>
+ <year>1997</year>
+ <isbn>0-7923-9985-4</isbn>
+</book>
+<book key="CormenLR89">
+ <author>Thomas H. Cormen</author>
+ <author>Charles E. Leiserson</author>
+ <author>Ronald L. Rivest</author>
+ <title>Introduction to Algorithms</title>
+ <publisher>The MIT Press and McGraw-Hill Book Company</publisher>
+ <year>1989</year>
+ <isbn>0-262-03141-8 and 0-07-013143-0</isbn>
+</book>
+<book key="CeriP84">
+ <author>Stefano Ceri</author>
+ <author>Giuseppe Pelagatti</author>
+ <title>Distributed Databases: Principles and Systems</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1984</year>
+ <isbn>0-07-010829-3</isbn>
+</book>
+<book key="SilberschatzKS97">
+ <author>Abraham Silberschatz</author>
+ <author>Henry F. Korth</author>
+ <author>S. Sudarshan</author>
+ <title>Database System Concepts, 3rd Edition.</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1997</year>
+ <isbn>0-07-044756-X</isbn>
+</book>
+<book key="CannanO93">
+ <author>S. J. Cannan</author>
+ <author>G. A. M. Otten</author>
+ <title>SQL - The Standard Handbook</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1993</year>
+</book>
+<book key="SaltonG83">
+ <author>Gerard Salton</author>
+ <author>Michael McGill</author>
+ <title>Introduction to Modern Information Retrieval.</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1984</year>
+ <isbn>0-07-054484-0</isbn>
+</book>
+<book key="Wiederhold87">
+ <author>Gio Wiederhold</author>
+ <title>File Organisation for Database Design.</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1987</year>
+ <isbn>0-07-100340-1</isbn>
+</book>
+<book key="SilberschatzK86">
+ <author>Abraham Silberschatz</author>
+ <author>Henry F. Korth</author>
+ <title>Database System Concepts, 1st Edition.</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1986</year>
+ <isbn>0-07-100529-3</isbn>
+</book>
+<book key="Ramakrishnan98">
+ <author>Raghu Ramakrishnan</author>
+ <title>Database Management Systems.</title>
+ <publisher>WCB/McGraw-Hill</publisher>
+ <year>1998</year>
+ <isbn>0-07-050775-9</isbn>
+</book>
+<book key="SilberschatzK91">
+ <author>Abraham Silberschatz</author>
+ <author>Henry F. Korth</author>
+ <title>Database System Concepts, 2nd Edition.</title>
+ <publisher>McGraw-Hill Book Company</publisher>
+ <year>1991</year>
+</book>
+<incollection key="GroskyFJ98">
+ <author>William I. Grosky</author>
+ <author>Farshad Fotouhi</author>
+ <author>Zhaowei Jiang</author>
+ <title>Using Metadata for the Intelligent Browsing of Structured Media Objects.</title>
+ <pages>123-148</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#GroskyFJ98</url>
+</incollection>
+<incollection key="WechslerS98">
+ <author>Martin Wechsler</author>
+ <author>Peter Schauble</author>
+ <title>Metadata for Content-based Retrieval of Speech Recording.</title>
+ <pages>223-243</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#WechslerS98</url>
+</incollection>
+<incollection key="BeardS98">
+ <author>Kate Beard</author>
+ <author>Terence R. Smith</author>
+ <title>A Framework for Meta-Information in Digital Libraries.</title>
+ <pages>341-365</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#BeardS98</url>
+</incollection>
+<incollection key="ChenHKKPW98">
+ <author>Francine Chen</author>
+ <author>Marti A. Hearst</author>
+ <author>Don Kimber</author>
+ <author>Julian Kupiec</author>
+ <author>Jan O. Pedersen</author>
+ <author>Lynn Wilcox</author>
+ <title>Metadata for Mixed-Media Access.</title>
+ <pages>319-340</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#ChenHKKPW98</url>
+</incollection>
+<incollection key="KiyokiKH98">
+ <author>Yasushi Kiyoki</author>
+ <author>Takashi Kitagawa</author>
+ <author>Takanari Hayama</author>
+ <title>A Metadatabase System for Semantic Image Search by a Mathematical Model of Meaning.</title>
+ <pages>191-222</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#KiyokiKH98</url>
+</incollection>
+<incollection key="GuntherV98">
+ <author>Oliver Gunther</author>
+ <author>Agnes Voisard</author>
+ <title>Metadata in Geographic and Environmental Data Management.</title>
+ <pages>57-87</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#GuntherV98</url>
+</incollection>
+<incollection key="ChuHIT98">
+ <author>Wesley W. Chu</author>
+ <author>Chih-Cheng Hsu</author>
+ <author>Ion Tim Ieong</author>
+ <author>Ricky K. Taira</author>
+ <title>Content-Based Image Retrieval using Metadata and Relaxation Techniques.</title>
+ <pages>149-190</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#ChuHIT98</url>
+</incollection>
+<incollection key="Bohm98">
+ <author>Klemens Bohm</author>
+ <title>Metadata Handling in HyperStorM.</title>
+ <pages>25-56</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#Bohm98</url>
+</incollection>
+<incollection key="BollKS98">
+ <author>Susanne Boll</author>
+ <author>Wolfgang Klas</author>
+ <author>Amit P. Sheth</author>
+ <title>Overview on Using Metadata to manage Multimedia Data.</title>
+ <pages>1-24</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#BollKS98</url>
+</incollection>
+<incollection key="HampapurJ98">
+ <author>Arun Hampapur</author>
+ <author>Ramesh Jain</author>
+ <title>Video Data Management Systems: Metadata and Architecture.</title>
+ <pages>245-286</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#HampapurJ98</url>
+</incollection>
+<incollection key="DrewY98">
+ <author>Pamela Drew</author>
+ <author>Jerry Ying</author>
+ <title>Metadata Management for Geographic Information Discovery and Exchange.</title>
+ <pages>89-121</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#DrewY98</url>
+</incollection>
+<incollection key="KlippgenLAV98">
+ <author>William Klippgen</author>
+ <author>Thomas D. C. Little</author>
+ <author>Gulrukh Ahanger</author>
+ <author>Dinesh Venkatesh</author>
+ <title>The Use of Metadata for the Rendering of Personilized Video Delivery.</title>
+ <pages>287-318</pages>
+ <year>1998</year>
+ <booktitle>Multimedia Data Management</booktitle>
+ <url>db/books/collections/shethK98.html#KlippgenLAV98</url>
+</incollection>
+<book key="ShethK98">
+ <editor>Amit P. Sheth</editor>
+ <editor>Wolfgang Klas</editor>
+ <title>Multimedia Data Management: Using Metadata to Integrate and Apply Digital Media</title>
+ <publisher>McGraw-Hill</publisher>
+ <isbn>0-07-057735-8</isbn>
+ <year>1998</year>
+ <url>db/books/collections/shethK98.html</url>
+</book>
+<book key="Coplien92">
+ <author>James Coplien</author>
+ <title>Advanced C++: Programming Syles and Idioms</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1992</year>
+ <isbn>0-201-54855-0</isbn>
+</book>
+<book key="Stroustrup91">
+ <author>Bjarne Stroustrup</author>
+ <title>The C++ Programming Language, Second Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1991</year>
+ <isbn>0-201-53992-6</isbn>
+</book>
+<book key="PlasmeijerE93">
+ <author>Marinus J. Plasmeijer</author>
+ <author>M. C. J. D. van Eekelen</author>
+ <title>Functional Programming and Parallel Graph Rewriting</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1993</year>
+ <isbn>0-201-41663-8</isbn>
+</book>
+<book key="BertinoM93">
+ <author>Elisa Bertino</author>
+ <author>Lorenzo Martino</author>
+ <title>Object-Oriented Database Systems</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1993</year>
+ <isbn>0-201-62439-7</isbn>
+ <url>db/books/dbtext/bertino93.html</url>
+</book>
+<book key="Knuth81">
+ <author>Donald E. Knuth</author>
+ <title>The Art of Computer Programming, Volume II: Seminumerical Algorithms, 2nd Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1981</year>
+ <isbn>0-201-03822-6</isbn>
+</book>
+<book key="Zipf49">
+ <author>George Kingsley Zipf</author>
+ <title>Human Behaviour and the Principle of Least Effort: an Introduction to Human Ecology</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1949</year>
+</book>
+<book key="Knuth73">
+ <author>Donald E. Knuth</author>
+ <title>The Art of Computer Programming, Volume III: Sorting and Searching</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1973</year>
+ <isbn>0-201-03803-X</isbn>
+</book>
+<book key="Ousterhout94">
+ <author>John K. Ousterhout</author>
+ <title>Tcl and the Tk Toolkit</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>0-201-63337-X</isbn>
+</book>
+<book key="DateD92">
+ <author>C. J. Date</author>
+ <author>Hugh Darwen</author>
+ <title>Relational Database Writings 1989-1991</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1992</year>
+ <isbn>0-201-54303-6</isbn>
+</book>
+<book key="Samet90">
+ <author>Hanan Samet</author>
+ <title>The Design and Analysis of Spatial Data Structures</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1990</year>
+</book>
+<book key="Goldberg89">
+ <author>David E. Goldberg</author>
+ <title>Genetic Algorithms in Search Optimization and Machine Learning</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1989</year>
+ <isbn>0-201-15767-5</isbn>
+</book>
+<book key="DateD93">
+ <author>C. J. Date</author>
+ <author>Hugh Darwen</author>
+ <title>A Guide to SQL Standard, 3rd Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1993</year>
+ <isbn>0-201-55822-X</isbn>
+</book>
+<book key="JaJa92">
+ <author>Joseph JaJa</author>,
+ <title>An Introduction to Parallel Algorithms</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1992</year>
+ <isbn>0-201-54856-9</isbn>
+</book>
+<book key="AbiteboulHV95">
+ <author>Serge Abiteboul</author>
+ <author>Richard Hull</author>
+ <author>Victor Vianu</author>
+ <title>Foundations of Databases.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1995</year>
+ <isbn>0-201-53771-0</isbn>
+ <url>db/books/dbtext/abiteboul95.html</url>
+</book>
+<book key="WeigendG94">
+ <author>Andreas S. Weigend</author>
+ <author>Neil A. Gerschenfeld</author>
+ <title>Time Series Prediction: Forecasting the Future and Understanding the Past.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>0-201-62601-2</isbn>
+</book>
+<book key="Luenberger73">
+ <author>David G. Luenberger</author>
+ <title>Introduction to Linear and Nonlinear Programming.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1973</year>
+</book>
+<book key="Salton89">
+ <author>Gerard Salton</author>
+ <title>Automatic Text Processing: The Transformation, Analysis, and Retrieval of Information by Computer.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1989</year>
+ <isbn>0-201-12227-8</isbn>
+</book>
+<book key="AhoHU74">
+ <author>Alfred V. Aho</author>
+ <author>John E. Hopcroft</author>
+ <author>Jeffrey D. Ullman</author>
+ <title>The Design and Analysis of Computer Algorithms.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1974</year>
+ <isbn>0-201-00029-6</isbn>
+</book>
+<book key="BernsteinHG87">
+ <author>Philip A. Bernstein</author>
+ <author>Vassos Hadzilacos</author>
+ <author>Nathan Goodman</author>
+ <title>Concurrency Control and Recovery in Database Systems.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1987</year>
+ <isbn>0-201-10715-5</isbn>
+ <url>db/books/dbtext/bernstein87.html</url>
+</book>
+<book key="AhoSU86">
+ <author>Alfred V. Aho</author>
+ <author>Ravi Sethi</author>
+ <author>Jeffrey D. Ullman</author>
+ <title>Compilers: Princiles, Techniques, and Tools.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1986</year>
+ <isbn>0-201-10088-6</isbn>
+</book>
+<book key="Stroustrup86">
+ <author>Bjarne Stroustrup</author>
+ <title>The C++ Programming Language, First Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1986</year>
+ <isbn>0-201-12078-X</isbn>
+</book>
+<book key="Date86">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems, Volume I, 4th Edition.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1986</year>
+</book>
+<book key="DateD97">
+ <author>C. J. Date</author>
+ <author>Hugh Darwen</author>
+ <title>A Guide to SQL Standard, 4th Edition</title>
+ <publisher href="db/publishers/aw.html">Addison-Wesley</publisher>
+ <year>1997</year>
+ <isbn>0-201-96426-0</isbn>
+</book>
+<book key="HopcroftU79">
+ <author>John E. Hopcroft</author>
+ <author>Jeffrey D. Ullman</author>
+ <title>Introduction to Automata Theory, Languages and Computation.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1979</year>
+ <isbn>0-201-02888-X</isbn>
+</book>
+<book key="SilberschatzG94">
+ <author>Abraham Silberschatz</author>
+ <author>Peter Galvin</author>
+ <title>Operating System Concepts, 4th edition.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>0-201-50480-4</isbn>
+</book>
+<book key="Date90">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems, Volume I, 5th Edition.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1990</year>
+ <isbn>0-201-52878-9</isbn>
+</book>
+<book key="Date95">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems, 6th Edition.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1995</year>
+ <isbn>0-201-82458-2</isbn>
+</book>
+<book key="Knuth73a">
+ <author>Donald E. Knuth</author>
+ <title>The Art of Computer Programming, Volume I: Fundamental Algorithms, 2nd Edition.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1973</year>
+</book>
+<book key="GoslingJS96">
+ <author>James Gosling</author>
+ <author>William N. Joy</author>
+ <author>Guy L. Steele Jr.</author>
+ <title>The Java&#153; Language Specification.</title>
+ <publisher href="db/publishers/aw.html">Addison-Wesley</publisher>
+ <year>1996</year>
+ <isbn>0-201-63451-1</isbn>
+</book>
+<book key="Knuth69">
+ <author>Donald E. Knuth</author>
+ <title>The Art of Computer Programming, Volume II: Seminumerical Algorithms</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1969</year>
+</book>
+<book key="Stein95">
+ <author>Lincoln Stein</author>
+ <title>How to Set Up and Maintain a World Wide Web Site: The Guide for Information Providers.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1995</year>
+ <isbn>0-201-63389-2</isbn>
+</book>
+<book key="GoldbergR83">
+ <author>Adele Goldberg</author>
+ <author>D. Robson</author>
+ <title>Smalltalk-80: The Language and Its Implementation.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1983</year>
+</book>
+<book key="Denning82">
+ <author>Dorothy E. Denning</author>
+ <title>Cryptography and Data Security</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1982</year>
+</book>
+<book key="AhoHU83">
+ <author>Alfred V. Aho</author>
+ <author>John E. Hopcroft</author>
+ <author>Jeffrey D. Ullman</author>
+ <title>Data Structures and Algorithms.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1983</year>
+ <isbn>0-201-00023-7</isbn>
+</book>
+<book key="EllisS90">
+ <author>Margaret A. Ellis</author>
+ <author>Bjarne Stroustrup</author>
+ <title>The Annotated C++ Reference Manual.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1990</year>
+ <isbn>0-201-51459-1</isbn>
+</book>
+<book key="FieldH88">
+ <author>A. J. Field</author>
+ <author>Peter G. Harrison</author>
+ <title>Functional Programming</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1988</year>
+ <isbn>0-201-19249-7</isbn>
+</book>
+<book key="Cattell91">
+ <author>R. G. G. Cattell</author>
+ <title>Object Data Management: Object-Oriented and Extended Relational Database Systems</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1991</year>
+ <isbn>0-201-53092-9</isbn>
+</book>
+<book key="Cattell94">
+ <author>R. G. G. Cattell</author>
+ <title>Object Data Management: Object-Oriented and Extended Relational Database Systems (Revised Edition)</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>0-201-54748-1</isbn>
+</book>
+<book key="KimL89">
+ <editor>Won Kim</editor>
+ <editor>Frederick H. Lochovsky</editor>
+ <title>Object-Oriented Concepts, Databases, and Applications.</title>
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <isbn>0-201-14410-7</isbn>
+ <url>db/books/collections/kim89.html</url>
+</book>
+<incollection key="BjornerstedtH89">
+ <author>Anders Bjornerstedt</author>
+ <author>Christer Hulten</author>
+ <title>Version Control in an Object-Oriented Architecture.</title>
+ <pages>451-485</pages>,
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#BjornerstedtH89</url>
+</incollection>
+<incollection key="CareyDRS89">
+ <author>Michael J. Carey</author>
+ <author>David J. DeWitt</author>
+ <author>Joel E. Richardson</author>
+ <author>Eugene J. Shekita</author>
+ <title>Storage Management in EXODUS.</title>
+ <pages>341-369</pages>,
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#CareyDRS89</url>
+</incollection>
+<incollection key="BretlMOPSSWW89">
+ <author>Robert Bretl</author>
+ <author>David Maier</author>
+ <author>Allen Otis</author>
+ <author>D. Jason Penney</author>
+ <author>Bruce Schuchardt</author>
+ <author>Jacob Stein</author>
+ <author>E. Harold Williams</author>
+ <author>Monty Williams</author>
+ <title>The GemStone Data Management System.</title>
+ <pages>283-308</pages>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#BretlMOPSSWW89</url>
+</incollection>
+<incollection key="KimKD89">
+ <author>Won Kim</author>
+ <author>Kyung-Chang Kim</author>
+ <author>Alfred G. Dale</author>
+ <title>Indexing Techniques for Object-Oriented Databases.</title>
+ <pages>371-394</pages>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#KimKD89</url>
+</incollection>
+<incollection key="Russinoff89">
+ <author>David M. Russinoff</author>
+ <title>Proteus: A Frame-Based Nonmonotonic Inference System.</title>
+ <pages>127-150</pages>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#Russinoff89</url>
+</incollection>
+<incollection key="FishmanABCCDHHKLLMNRSW89">
+ <author>Daniel H. Fishman</author>
+ <author>Jurgen Annevelink</author>
+ <author>David Beech</author>
+ <author>E. C. Chow</author>
+ <author>Tim Connors</author>
+ <author>J. W. Davis</author>
+ <author>Waqar Hasan</author>
+ <author>C. G. Hoch</author>
+ <author>William Kent</author>
+ <author>S. Leichner</author>
+ <author>Peter Lyngbak</author>
+ <author>Brom Mahbod</author>
+ <author>Marie-Anne Neimat</author>
+ <author>Tore Risch</author>
+ <author>Ming-Chien Shan</author>
+ <author>W. Kevin Wilkinson</author>
+ <title>Overview of the Iris DBMS.</title>
+ <pages>219-250</pages>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#FishmanABCCDHHKLLMNRSW89</url>
+</incollection>
+<incollection key="KimBCGW89">
+ <author>Won Kim</author>
+ <author>Nat Ballou</author>
+ <author>Hong-Tai Chou</author>
+ <author>Jorge F. Garza</author>
+ <author>Darrell Woelk</author>
+ <title>Features of the ORION Object-Oriented Database System.</title>
+ <pages>251-282</pages>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>,
+ <publisher>ACM Press and Addison-Wesley</publisher>
+ <year>1989</year>
+ <url>db/books/collections/kim89.html#KimBCGW89</url>
+</incollection>
+<incollection key="Nierstrasz89">
+ <author>Oscar Nierstrasz</author>
+ <title>A Survey of Object-Oriented Concepts.</title>
+ <pages>3-21</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Nierstrasz89</url>
+</incollection>
+<incollection key="TomlinsonS89">
+ <author>Chris Tomlinson</author>
+ <author>Mark Scheevel</author>
+ <title>Concurrent Object-Oriented Programming Languages.</title>
+ <pages>79-124</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#TomlinsonS89</url>
+</incollection>
+<incollection key="TarltonT89">
+ <author>Mark A. Tarlton</author>
+ <author>P. Nong Tarlton</author>
+ <title>Pogo: A Declarative Representation System for Graphics.</title>
+ <pages>151-176</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#TarltonT89</url>
+</incollection>
+<incollection key="Moon89">
+ <author>David A. Moon</author>
+ <title>The Common List Object-Oriented Programming Language Standard.</title>
+ <pages>49-78</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Moon89</url>
+</incollection>
+<incollection key="WeiserL89">
+ <author>Stephen P. Weiser</author>
+ <author>Frederick H. Lochovsky</author>
+ <title>OZ+: An Object-Oriented Database System.</title>
+ <pages>309-337</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#WeiserL89</url>
+</incollection>
+<incollection key="MellenderRS89">
+ <author>Fred Mellender</author>
+ <author>Steve Riegel</author>
+ <author>Andrew Straw</author>
+ <title>Optimizing Smalltalk Message Performance.</title>
+ <pages>423-450</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#MellenderRS89</url>
+</incollection>
+<incollection key="Decouchant89">
+ <author>Dominique Decouchant</author>
+ <title>A Distributed Object Manager for the Smalltalk-80 System.</title>
+ <pages>487-520</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Decouchant89</url>
+</incollection>
+<incollection key="SkarraZ89">
+ <author>Andrea H. Skarra</author>
+ <author>Stanley B. Zdonik</author>
+ <title>Concurrency Control and Object-Oriented Databases.</title>
+ <pages>395-421</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#SkarraZ89</url>
+</incollection>
+<incollection key="EllisG89">
+ <author>Clarence A. Ellis</author>
+ <author>Simon J. Gibbs</author>
+ <title>Active Objects: Ealities and Possibilities.</title>
+ <pages>561-572</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#EllisG89</url>
+</incollection>
+<incollection key="Moss89">
+ <author>J. Eliot B. Moss</author>
+ <title>Object Orientation as Catalyst for Language-Database Inegration.</title>
+ <pages>583-592</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Moss89</url>
+</incollection>
+<incollection key="SteinLU89">
+ <author>Lynn Andrea Stein</author>
+ <author>Henry Lieberman</author>
+ <author>David Ungar</author>
+ <title>A Shared View of Sharing: The Treaty of Orlando.</title>
+ <pages>31-48</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#SteinLU89</url>
+</incollection>
+<incollection key="NierstraszT89">
+ <author>Oscar Nierstrasz</author>
+ <author>Dennis Tsichritzis</author>
+ <title>Integrated Office Systems.</title>
+ <pages>199-215</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#NierstraszT89</url>
+</incollection>
+<incollection key="King89">
+ <author>Roger King</author>
+ <title>My Cat Is Object-Oriented.</title>
+ <pages>23-30</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#King89</url>
+</incollection>
+<incollection key="Wand89">
+ <author>Yair Wand</author>
+ <title>A Proposal for a Formal Model of Objects.</title>
+ <pages>537-559</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Wand89</url>
+</incollection>
+<incollection key="DiederichM89">
+ <author>Jim Diederich</author>
+ <author>Jack Milton</author>
+ <title>Objects, Messages, and Rules in Database Design.</title>
+ <pages>177-197</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#DiederichM89</url>
+</incollection>
+<incollection key="Maier89">
+ <author>David Maier</author>
+ <title>Making Database Systems Fast Enough for CAD Applications.</title>
+ <pages>573-582</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#Maier89</url>
+</incollection>
+<incollection key="TsichritzisN89">
+ <author>Dennis Tsichritzis</author>
+ <author>Oscar Nierstrasz</author>
+ <title>Disrection in Object-Oriented Research.</title>
+ <pages>523-536</pages>
+ <year>1989</year>
+ <booktitle>Object-Oriented Concepts, Databases, and Applications</booktitle>
+ <url>db/books/collections/kim89.html#TsichritzisN89</url>
+</incollection>
+<book key="CeriF97">
+ <author>Stefano Ceri</author>
+ <author>Piero Fraternali</author>
+ <title>Designing Database Applications with Objects and Rules</title>
+ <publisher href="db/publishers/aw.html">Addison-Wesley</publisher>
+ <year>1997</year>
+ <isbn>0-201-403692-1</isbn>
+</book>
+<book key="Rahm94">
+ <author>Erhard Rahm</author>
+ <title>Mehrrechner-Datenbanksysteme - Grundlagen der verteilten und parallelen Datenbankverarbeitung.</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>3-89319-702-8</isbn>
+ <url>db/books/dbtext/rahm94.html</url>
+</book>
+<book key="CastanoFMS95">
+ <author>Silvana Castano</author>
+ <author>Mariagrazia Fugini</author>
+ <author>Giancarlo Martella</author>
+ <author>Pierangela Samarati</author>
+ <title>Database Security.</title>
+ <publisher>Addison-Wesley &amp; ACM Press</publisher>
+ <url>db/books/dbtext/castano95.html</url>
+ <year>1995</year>
+ <isbn>0-201-59375-0</isbn>
+</book>
+<book key="VossenW90">
+ <author>Gottfried Vossen</author>
+ <author>Kurt-Ulrich Witt</author>
+ <title>Das DB2-Handbuch.</title>
+ <url>db/books/dbtext/vossen90.html</url>
+ <publisher>Addison-Wesley</publisher>
+ <year>1990</year>
+ <isbn>3-89319-175-5</isbn>
+</book>
+<book key="Vossen94">
+ <author>Gottfried Vossen</author>
+ <title>Datenmodelle, Datenbanksprachen und Datenbank-Management-Systeme. 2. Auflage</title>
+ <url>db/books/dbtext/vossen94.html</url>
+ <publisher>Addison-Wesley</publisher>
+ <year>1994</year>
+ <isbn>3-89319-566-1</isbn>
+</book>
+<book key="Date75">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1975</year>
+ <isbn>0-201-14452-2</isbn>
+</book>
+<book key="Date77">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems, 2nd Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1977</year>
+</book>
+<book key="Date81">
+ <author>C. J. Date</author>
+ <title>An Introduction to Database Systems, 3rd Edition</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1981</year>
+</book>
+<book key="Sedgewick83">
+ <author>Robert Sedgewick</author>
+ <title>Algorithms</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1983</year>
+ <isbn>0-201-06672-6</isbn>
+</book>
+<book key="GardarinV89">
+ <author>Georges Gardarin</author>
+ <author>Patrick Valduriez</author>
+ <title>Relational Databases and Knowledge Bases</title>
+ <publisher>Addison-Wesley</publisher>
+ <year>1989</year>
+ <isbn>0-201-09955-1</isbn>
+</book>
+<book key="Ullman89">
+ <author>Jeffrey D. Ullman</author>
+ <title>Principles of Database  and Knowledge-Base Systems, Volume II</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1989</year>
+ <isbn>0-7167-8162-X</isbn>
+</book>
+<book key="Ullman88">
+ <author>Jeffrey D. Ullman</author>
+ <title>Principles of Database  and Knowledge-Base Systems, Volume I</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1988</year>
+ <isbn>0-7167-8158-1</isbn>
+</book>
+<book key="Wong83">
+ <author>C. K. Wong</author>
+ <title>Algorithmic Studies in Mass Storage Systems.</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1983</year>
+</book>
+<book key="HorowitzS78">
+ <author>Ellis Horowitz</author>
+ <author>Sartaj Sahni</author>
+ <title>Fundamentals of Computer Algorithms.</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1978</year>
+</book>
+<book key="Maier83">
+ <author>David Maier</author>
+ <title>The Theory of Relational Databases.</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1983</year>
+ <isbn>0-914894-42-0</isbn>
+</book>
+<book key="Storer88">
+ <author>James A. Storer</author>
+ <title>Data Compression: Methods and Theory.</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1988</year>
+</book>
+<book key="Ullman82">
+ <author>Jeffrey D. Ullman</author>
+ <title>Principles of Database Systems, 2nd Edition</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1982</year>
+ <isbn>0-914894-36-6</isbn>
+</book>
+<book key="NaqviT89">
+ <author>Shamim A. Naqvi</author>
+ <author>Shalom Tsur</author>
+ <title>A Logical Language for Data and Knowledge Bases.</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1989</year>
+ <isbn>0-7167-8200-6</isbn>
+</book>
+<book key="Ullman80">
+ <author>Jeffrey D. Ullman</author>
+ <title>Principles of Database Systems, 1st Edition</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1980</year>
+</book>
+<book key="Papadimitriou86">
+ <author>Christos H. Papadimitriou</author>
+ <title>The Theory of Database Concurrency Control</title>
+ <publisher>Computer Science Press</publisher>
+ <year>1986</year>
+ <isbn>0-88175-027-1</isbn>
+</book>
+<book key="TanselCGJSS93">
+ <editor>Abdullah Uz Tansel</editor>
+ <editor>James Clifford</editor>
+ <editor>Shashi K. Gadia</editor>
+ <editor>Sushil Jajodia</editor>
+ <editor>Arie Segev</editor>
+ <editor>Richard T. Snodgrass</editor>
+ <title>Temporal Databases: Theory, Design, and Implementation</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1993</year>
+ <isbn>0-8053-2413-5</isbn>
+ <url>db/books/collections/tansel93.html</url>
+</book>
+<book key="ElmasriN89">
+ <author>Ramez Elmasri</author>
+ <author>Shamkant B. Navathe</author>
+ <title>Fundamentals of Database Systems</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1989</year>
+</book>
+<book key="AtzeniA93">
+ <author>Paolo Atzeni</author>
+ <author>Valeria De Antonellis</author>
+ <title>Relational Database Theory</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <isbn>0-8053-0249-2</isbn>
+ <year>1993</year>
+</book>
+<book key="KumarGGK94">
+ <author>Vipin Kumar</author>
+ <author>Ananth Grama</author>
+ <author>Anshul Gupta</author>
+ <author>George Karypis</author>
+ <title>Introduction to Parallel Computing.</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1994</year>
+ <isbn>0-8053-3170-0</isbn>
+</book>
+<book key="ElmasriN94">
+ <author>Ramez Elmasri</author>
+ <author>Shamkant B. Navathe</author>
+ <title>Fundamentals of Database Systems, 2nd Edition.</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1994</year>
+ <isbn>0-8053-1748-1</isbn>
+ <url>db/books/dbtext/elmasri94.html</url>
+</book>
+<book key="BatiniCN92">
+ <author>Carlo Batini</author>
+ <author>Stefano Ceri</author>
+ <author>Shamkant B. Navathe</author>
+ <title>Conceptual Database Design: An Entity-Relationship Approach.</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1992</year>
+ <isbn>0-8053-0244-1</isbn>
+</book>
+<book key="MaierW88">
+ <author>David Maier</author>
+ <author>David Scott Warren</author>
+ <title>Computing with Logic: Logic Programming with Prolog</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1988</year>
+ <isbn>0-8053-6681-4</isbn>
+</book>
+<book key="Booch90">
+ <author>Grady Booch</author>
+ <title>Object-Oriented Design with Applications</title>
+ <publisher>Benjamin/Cummings</publisher>
+ <year>1990</year>
+</book>
+<incollection key="LometS93">
+ <author>David B. Lomet</author>
+ <author>Betty Salzberg</author>
+ <title>Transaction-Time Databases.</title>
+ <pages>388-417</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#LometS93</url>
+</incollection>
+<incollection key="Snodgrass93">
+ <author>Richard T. Snodgrass</author>
+ <title>An Overview of TQuel.</title>
+ <pages>141-182</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Snodgrass93</url>
+</incollection>
+<incollection key="Gadia93">
+ <author>Shashi K. Gadia</author>
+ <title>Ben-Zvi's Pioneering Work in Relational Temporal Databases.</title>
+ <pages>202-207</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Gadia93</url>
+</incollection>
+<incollection key="Tuzhilin93">
+ <author>Alexander Tuzhilin</author>
+ <title>Applications of temporal Databases to Knowledge-based Simulations.</title>
+ <pages>580-593</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Tuzhilin93</url>
+</incollection>
+<incollection key="MontanariP93">
+ <author>Angelo Montanari</author>
+ <author>Barbara Pernici</author>
+ <title>temporal Reasoning.</title>
+ <pages>534-562</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#MontanariP93</url>
+</incollection>
+<incollection key="Segev93">
+ <author>Arie Segev</author>
+ <title>Join Processing and Optimization in Temporal Relational Databases.</title>
+ <pages>356-387</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Segev93</url>
+</incollection>
+<incollection key="Kolovson93">
+ <author>Curtis P. Kolovson</author>
+ <title>Indexing Techniques for Historical Databases.</title>
+ <pages>418-432</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Kolovson93</url>
+</incollection>
+<incollection key="WiederholdJL93">
+ <author>Gio Wiederhold</author>
+ <author>Sushil Jajodia</author>
+ <author>Witold Litwin</author>
+ <title>Integrating Temporal Data in a Heterogeneous Environment.</title>
+ <pages>563-579</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#WiederholdJL93</url>
+</incollection>
+<incollection key="CliffordCT93">
+ <author>James Clifford</author>
+ <author>Albert Crocker</author>
+ <author>Alexander Tuzhilin</author>
+ <title>On the Completeness of Query Languages for Grouped and Ungrouped Historical Data Models.</title>
+ <pages>496-533</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#CliffordCT93</url>
+</incollection>
+<incollection key="Ginsburg93">
+ <author>Seymour Ginsburg</author>
+ <title>Object and Spreadsheet Histories.</title>
+ <pages>271-293</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Ginsburg93</url>
+</incollection>
+<incollection key="GadiaN93">
+ <author>Shashi K. Gadia</author>
+ <author>Sunil S. Nair</author>
+ <title>Temporal Databases: A Prelude to Parametric Data.</title>
+ <pages>28-66</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#GadiaN93</url>
+</incollection>
+<incollection key="WuuD93">
+ <author>Gene T. J. Wuu</author>
+ <author>Umeshwar Dayal</author>
+ <title>A Uniform Model for Temporal and Versioned Object-oriented Databases.</title>
+ <pages>230-247</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#WuuD93</url>
+</incollection>
+<incollection key="BaudinetCW93">
+ <author>Marianne Baudinet</author>
+ <author>Jan Chomicki</author>
+ <author>Pierre Wolper</author>
+ <title>Temporal Deductive Databases.</title>
+ <pages>294-320</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#BaudinetCW93</url>
+</incollection>
+<incollection key="Tansel93">
+ <author>Abdullah Uz Tansel</author>
+ <title>A Generalized relational Framework for Modeling Temporal Data.</title>
+ <pages>183-201</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Tansel93</url>
+</incollection>
+<incollection key="NavatheA93">
+ <author>Shamkant B. Navathe</author>
+ <author>Rafi Ahmed</author>
+ <title>Temporal Extensions to the Relational Model and SQL.</title>
+ <pages>92-109</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#NavatheA93</url>
+</incollection>
+<incollection key="LeungM93">
+ <author>T. Y. Cliff Leung</author>
+ <author>Richard R. Muntz</author>
+ <title>Stream Processing: Temporal Query Processing and Optimization.</title>
+ <pages>329-355</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#LeungM93</url>
+</incollection>
+<incollection key="Sadra93">
+ <author>N. L. Sadra</author>
+ <title>HSQL: A Historical Query Language.</title>
+ <pages>110-140</pages>
+ <year>1993</year>
+ <booktitle>Temporal Databases</booktitle>
+ <url>db/books/collections/tansel93.html#Sadra93</url>
+</incollection>
+</xx>

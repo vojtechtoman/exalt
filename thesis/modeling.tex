@@ -1,0 +1,22 @@
+\chapter{The Modeling}
+
+\section{The simple model} 
+      
+\section{The improved model}
+{Let $G = (V, E)$ be an oriented graph. For $v \in V$, $deg_G^+(v)$ denotes the number of edges ending in $v$, and $deg_G^-(v)$ denotes the number of edges starting in $v$.
+
+Let $\mathcal{E} \subseteq \mathcal{A}$ be a finite set from which the names of the elements are drawn.
+
+\definition{Model of the element}{Let $e$ be an XML element. Let $V$ be any (finite) set, and $E \subseteq V \times V$. The quadruple $M(e) = (V, E, \gamma, \tau)$ shall be called the \concept{model of element $e$} if it satisfies the following properties:
+\begin{enumerate}
+\item \label{DefElementModelAcyclic}$M(e)$ is acyclic;
+
+\item \label{DefElementModelStartVertex}There is exactly one vertex $v_{start} \in V$ such that $deg_{M(e)}^+(v_{start}) = 0$;
+
+\item \label{DefElementModelEndVertex}There is exactly one vertex $v_{end} \in V$ such that $deg_{M(e)}^-(v_{end}) = 0$;
+
+\item \label{DefElementModelOnePath}For each $v \in V \setminus \{v_{start}, v_{end}\}$, there is exactly one path from $v_{start}$ to $v$ in $M(e)$;
+\end{enumerate}
+
+vfvv odfvf .
+}

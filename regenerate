@@ -1,0 +1,5 @@
+#! /bin/bash
+CXXFLAGS="-I/afs/ms/u/v/vtom7625/BIG/programy/expat-1.95.5/include -ggdb -Wall"
+LDFLAGS="-L/afs/ms/u/v/vtom7625/BIG/programy/expat-1.95.5/lib"
+rm -f config.cache
+aclocal; autoheader; autoconf; automake --add-missing;

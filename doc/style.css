@@ -1,0 +1,95 @@
+body {
+	font-family: times, serif;
+	font-size: 12pt;
+/*	margin: 0px;*/
+	background-color: white;
+}
+
+
+p {
+	margin-left: 20px;
+}
+
+
+h1, h2, h3 {
+	font-family: helvetica, arial, sans-serif;
+}
+
+
+h1 {
+	font-size: 20pt;
+	color: #64af7c;
+	padding-left: 20px;
+}
+
+h2 {
+	margin-left: 20px;
+	font-size: 14pt;
+}
+
+h3 {
+	margin-left: 20px;
+	font-size: 12pt;
+}
+
+ul li {
+	list-style-image: url("./images/list-bullet.png");
+}
+
+
+tt, pre {
+	font-family: courier new, courier, monospace
+}
+
+
+pre {
+	background-color: #e6f2e9;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	margin: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+img {
+	border: none;
+}
+
+
+.bar {
+	text-align: center;
+	background-color: #64af7c;
+	color: white;
+}
+
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #800000;
+	text-decoration: none;
+}
+
+
+.bar a:link {
+	color: #ffffc2;
+	text-decoration: none;
+}
+
+.bar a:hover {
+	color: #000080;
+	text-decoration: none;
+}
+
+

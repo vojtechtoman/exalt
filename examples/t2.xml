@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+
+<PLAY>
+<TITLE>The Tragedy of Antony and Cleopatra</TITLE>
+
+<FM>
+<P>Text placed in the public domain by Moby Lexical Tools, 1992.</P>
+<P>SGML markup by Jon Bosak, 1992-1994.</P>
+<P>XML version by Jon Bosak, 1996-1998.</P>
+<P>This work may be freely copied and distributed worldwide.</P>
+</FM>
+
+
+<PERSONAE>
+<TITLE>Dramatis Personae</TITLE>
+
+
+<PGROUP>
+<PERSONA>MARK ANTONY</PERSONA>
+<PERSONA>OCTAVIUS CAESAR</PERSONA>
+<PERSONA>M. AEMILIUS LEPIDUS</PERSONA>
+<GRPDESCR>triumvirs.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>SEXTUS POMPEIUS</PERSONA>
+
+<PGROUP>
+<PERSONA>DOMITIUS ENOBARBUS</PERSONA>
+<PERSONA>VENTIDIUS</PERSONA>
+<PERSONA>EROS</PERSONA>
+<PERSONA>SCARUS</PERSONA>
+<PERSONA>DERCETAS</PERSONA>
+<PERSONA>DEMETRIUS</PERSONA>
+<PERSONA>PHILO</PERSONA>
+<GRPDESCR>friends to Antony.</GRPDESCR>
+</PGROUP>
+
+
+<PGROUP>
+<PERSONA>MECAENAS</PERSONA>
+<PERSONA>AGRIPPA</PERSONA>
+<PERSONA>DOLABELLA</PERSONA>
+<PERSONA>PROCULEIUS</PERSONA>
+<PERSONA>THYREUS</PERSONA>
+<PERSONA>GALLUS</PERSONA>
+<PERSONA>MENAS</PERSONA>
+<GRPDESCR>friends to Caesar.</GRPDESCR>
+</PGROUP>
+
+
+<PGROUP>
+<PERSONA>MENECRATES</PERSONA>
+<PERSONA>VARRIUS</PERSONA>
+<GRPDESCR>friends to Pompey.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>TAURUS, lieutenant-general to Caesar.</PERSONA>
+<PERSONA>CANIDIUS, lieutenant-general to Antony.</PERSONA>
+<PERSONA>SILIUS, an officer in Ventidius's army.</PERSONA>
+<PERSONA>EUPHRONIUS, an ambassador from Antony to Caesar.</PERSONA>
+
+<PGROUP>
+<PERSONA>ALEXAS</PERSONA>
+<PERSONA>MARDIAN, a Eunuch.</PERSONA>
+<PERSONA>SELEUCUS</PERSONA>
+<PERSONA>DIOMEDES</PERSONA>
+<GRPDESCR>attendants on Cleopatra.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>A Soothsayer. </PERSONA>
+<PERSONA>A Clown. </PERSONA>
+<PERSONA>CLEOPATRA, queen of Egypt.</PERSONA>
+<PERSONA>OCTAVIA, sister to Caesar and wife to Antony.</PERSONA>
+
+<PGROUP>
+<PERSONA>CHARMIAN</PERSONA>
+<PERSONA>IRAS</PERSONA>
+<GRPDESCR>attendants on Cleopatra.</GRPDESCR>
+</PGROUP>
+
+<PERSONA>Officers, Soldiers, Messengers, and other Attendants.</PERSONA>
+</PERSONAE>
+
+<SCNDESCR>SCENE  In several parts of the Roman empire.</SCNDESCR>
+
+<PLAYSUBT>ANTONY AND CLEOPATRA</PLAYSUBT>
+
+<ACT><TITLE>ACT I</TITLE>
+
+<SCENE><TITLE>SCENE I.  Alexandria. A room in CLEOPATRA's palace.</TITLE>
+<STAGEDIR>Enter DEMETRIUS and PHILO</STAGEDIR>
+
+<SPEECH>
+<SPEAKER>PHILO</SPEAKER>
+<LINE>Nay, but this dotage of our general's</LINE>
+<LINE>O'erflows the measure: those his goodly eyes,</LINE>
+<LINE>That o'er the files and musters of the war</LINE>
+<LINE>Have glow'd like plated Mars, now bend, now turn,</LINE>
+<LINE>The office and devotion of their view</LINE>
+<LINE>Upon a tawny front: his captain's heart,</LINE>
+<LINE>Which in the scuffles of great fights hath burst</LINE>
+<LINE>The buckles on his breast, reneges all temper,</LINE>
+<LINE>And is become the bellows and the fan</LINE>
+<LINE>To cool a gipsy's lust.</LINE>
+<STAGEDIR>Flourish. Enter ANTONY, CLEOPATRA, her Ladies,
+the Train, with Eunuchs fanning her</STAGEDIR>
+<LINE>Look, where they come:</LINE>
+<LINE>Take but good note, and you shall see in him.</LINE>
+<LINE>The triple pillar of the world transform'd</LINE>
+<LINE>Into a strumpet's fool: behold and see.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>CLEOPATRA</SPEAKER>
+<LINE>If it be love indeed, tell me how much.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MARK ANTONY</SPEAKER>
+<LINE>There's beggary in the love that can be reckon'd.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>CLEOPATRA</SPEAKER>
+<LINE>I'll set a bourn how far to be beloved.</LINE>
+</SPEECH>
+
+<SPEECH>
+<SPEAKER>MARK ANTONY</SPEAKER>
+<LINE>Then must thou needs find out new heaven, new earth.</LINE>
+</SPEECH>
+
+
+<STAGEDIR>Enter an Attendant</STAGEDIR>
+
+</PLAY>

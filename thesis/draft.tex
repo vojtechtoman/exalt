@@ -1,0 +1,205 @@
+\documentclass[a4wide, draft, titlepage]{article}
+
+\usepackage{a4wide}
+\usepackage{color}
+\usepackage{graphics}
+
+\usepackage[latin2]{inputenc}
+
+
+\def\summary#1{\textit{\emph{Planned contents:} #1}}
+\def\notsure#1{\definecolor{lightgray}{gray}{0.8}\begin{center}\fcolorbox{black}{lightgray}{\begin{minipage}[h]{.90\linewidth}#1\end{minipage}}\end{center}}
+
+
+
+\begin{document}
+\begin{center}
+{\Large\textbf{Compression of XML data (preliminary draft)}}
+
+\vspace{1pc}
+{\large Vojtìch Toman}
+
+\vspace{1pc}
+\end{center}
+
+\section{Introduction}
+\summary{What is XML, why and how to compress it, the need of transparent compression framework, \ldots}
+\subsection{XML basics}
+	\begin{itemize}
+	\item History (brief)
+	\item Principles (meta-language, tags, elements, attributes, DTD, \ldots)
+	\item Advantages, drawbacks (size)
+	\item Parsing of XML documents: DOM and SAX
+	\end{itemize}
+
+\subsection{XML and compression}
+	\begin{itemize}
+	\item Why to compress XML?
+	\item Compression of XML as text (common practise)
+	\item XML-conscious techniques can utilize the redundancy contained in XML tree structure
+	\item Context-free nature of XML. Syntactic compression (a brief mention of Nevill-Manning and Witten's program \texttt{sequitur} and Kieffer-Yang's grammar-based codes)
+	\item None of existing XML compressors can be used as a ``compress-before-transmission/de\-compress-on-receipt'' framework that's invisible to the user
+        \item We have implemented a grammar-based XML compression system named \texttt{Exalt} (An Efficient XML Archiving Library/Toolkit -- nìjak jmenovat se to musí \rotatebox{-60}{:)}) \ldots \ldots
+	\end{itemize}
+
+
+
+\section{Existing XML-conscious compressors}
+\summary{Brief description of some of the existing XML compression tools. Authors, approaches to the problem, performance, strengths and weaknesses.}
+
+\subsection{\texttt{XMill}}
+Based on \texttt{gzip}, data separated into containers, semantic compressors, container expressions, \ldots
+
+\subsection{\texttt{XMLZip}}
+Breaks the structural tree into many components and uses the JAVA's built-in ZIP/DEFLATE library. Simple but sometimes gives very poor results. Allows random access to documents without storing whole document uncompressed.
+
+\subsection{\texttt{ESAX}}
+Encodes the SAX events. When combined with some of the PPM variants, it beats \texttt{XMill}. Allows online encoding/decoding.
+
+\subsection{\texttt{XMLPPM}}
+The follow-up to \texttt{ESAX}, uses so called Multiplexed Hierarchical Modeling (based on PPM). Multiplexes several models and switches among them. Probably the best XML compressor so far. Incremental encoding and decoding.
+
+
+
+\section{Principles of the new XML compression scheme}
+\summary{Our approach, what decisions were made and why (``why syntactic compression?'', ``why modeling of elements?'', etc.), basic principles.}
+
+\begin{itemize}
+\item Based on the analysis of SAX events
+\item Doesn't need DTD
+\item Probabilistic modeling of elements
+\item Syntactic compression (Kieffer and Yang's grammar-based codes)
+\item Arithmetic coding for encoding the grammar
+\item Incremental encoding and decoding, both transparent to the user.
+\item Two modeling strategies implemented: a simple model (simple yet sufficient) and an improved model (more intricate modeling)
+\item A framework for further research and experiments
+\end{itemize}
+
+
+
+\section{Grammar-based codes}
+\summary{A review of Kieffer-Yang's grammar-based codes: principles, fundamental theorems, grammar transforms, how to encode the grammars.}
+
+\begin{itemize}
+\item Admissible grammars, reduction rules, irreducible grammars, grammar transforms, examples
+\item Theorems about irreducible grammars (universal codes, convergence to the entropy rate of the source, etc.)
+\item Greedy sequential grammar transform: principles, examples, theorem describing its behavior (important for implementation)
+\item Encoding of the grammar: enumerative encoding, hierarchical algorithm, sequential algorithm, improved sequential algorithm. The performance of the individual algorithms (based on Kieffer and Yang's results)
+\end{itemize}
+
+\section{Arithmetic coding}
+\notsure{Zde si nejsem jistý, zda se do popisu vùbec pou¹tìt; zda by nestaèilo jen konstatovat, ¾e byla pou¾ita ta a ta metoda aritmetického kódování, a odkázat na prameny. Jediné, èeho jsem se v souvislosti s aritmetickým kódováním dopustil, bylo pøepsání ``revidované'' implementace z jazyka C do C++. V principu toti¾ lze pou¾ít zcela libovolnou implementaci, která vyhovuje urèitému C++ rozhraní. Na druhou stranu ale vliv na celkovou rychlost systému a na velikost výstupních dat mù¾e být znaèný.}
+
+\summary{A review of the revised arithmetic coding scheme (by A. Moffat, R. M. Neal and I. H. Witten). Improvements over the standard ``CACM implementation'': fewer multiplicative operations, extended range of alphabet sizes and symbol probabilities, optional use of fast low-precision arithmetic (shift/adds).}
+
+\begin{itemize}
+\item Modularization: modeling, estimation and coding subsystems
+\item Data structures that support arithmetic coding on large alphabets
+\item Reductions of the number of multiplications and divisions
+\item Low precision arithmetic
+\item A reformulation of the decoding procedure: simplification of the decoding loop and spped improvement
+\end{itemize}
+
+
+\section{The design of \texttt{Exalt}}
+\summary{The conception of the system, the architecture, a detailed description of modeling strategies implemented.}
+\begin{itemize}
+\item A modular architecture
+\item Extensible (new character encodings, better arithmetic coding, new modeling engine, etc.)
+\item Support for generic input/output devices (file, network, \ldots)
+\item Standalone application as well as a C++ library for easy and transparent document encoding/decoding. Two interfaces to the coder:
+	\begin{itemize}
+	\item the PULL interface (the coder reads the data from specified input stream)
+	\item the PUSH interface (the application generates a stream of XML data and ``feeds'' the coder)
+	\end{itemize}
+The decoder reads the stream of compressed data and emits SAX events acting as a ``normal'' SAX parser
+\end{itemize}
+
+\subsection{The architecture}
+\summary{The inner architecture of the system: the components and their communication.}
+\begin{itemize}
+\item XML codec -- The ``top'' component, embraces the whole system and provides the \texttt{encode} and \texttt{decode} operations
+\item XML parser -- SAX parser built on top of the \texttt{expat} parser
+\item XML model -- Modeling engine of the system
+\item KY grammar -- Implements the Kieffer-Yang's compression scheme
+\item Arithmetic coding context -- A context structure for arithmetic coding (stores symbol frequencies)
+\item Arithmetic coder/decoder -- Implements arithmetic coding
+\item Many supporting components, most notably: SAX emitter (an emitter of decompressed SAX events), SAX receptor (an receptor of SAX events generated by SAX emitter), Text codec (for input and output character encodings), IO device (generic input/output device)
+\item The XML encoding procedure: XML codec $\rightarrow$ XML parser $\rightarrow$ XML model $\rightarrow$ KY grammar $\rightarrow$ Arithmetic coding context $\rightarrow$ Arithmetic coder
+\item The XML decoding procedure: XML codec $\rightarrow$ Arithmetic coder $\rightarrow$ Arithmetic coding context $\rightarrow$ KY grammar $\rightarrow$ XML model $\rightarrow$ SAX emitter $\rightarrow$ SAX receptor
+\end{itemize}
+
+\subsection{Encountered problems}
+\summary{List of some problems that had to be solved.}
+\begin{itemize}
+\item XML documents can be written in different character encodings. This causes many problems when parsing (the parser has to be able to convert the input encoding to its internal encoding) and decompression (conversion from internal encoding to the original encoding). \texttt{Exalt} supports a set of basic input/output encodings. New encodings can be added by extending the Text codec functionality.
+\item ``Document normalization'' caused by the SAX interface: Some of the white space is ignored, the order of some identifiers can be different, the replacement of \texttt{<name/>} by \texttt{<name></name>}, the substitution of standard entities (apostrophes, ampersands, etc.), \ldots
+\end{itemize}
+
+
+\subsection{Simple model}
+\summary{The description of the simple model.}
+\begin{itemize}
+\item SAX events vs. ``XML events'' (XML events are generated from SAX events; XML model operates on XML events)
+\item Representing the XML tree: the concept of structural symbols
+\item Encoding known element and attributes using Fibonacci codes
+\item No real modeling
+\item Description, principles, examples
+\end{itemize}
+
+\subsection{Improved model}
+\notsure{\begin{center}!!! Implementovat !!!\end{center}}
+\summary{How to improve the simple model, description of the modeling.}
+\begin{itemize}
+\item Improving the simple model
+\item Element context (for guessing the ``length'', ``emptiness'', attributes, the number of children, and the follower of the element)
+\item Attribute numbers (for representing the attribute sequences)
+\item Description, principles, step-by-step examples
+\end{itemize}
+
+\section{Comparison of \texttt{Exalt} with other XML compressors}
+\notsure{Mo¾ná umístit mezi dodatky?}
+\summary{Comparison with other existing XML compressors and ``generic'' tools such as \texttt{compress}, \texttt{gzip} and \texttt{bzip2} on various types of XML data (textual, structured, \ldots). Speed, efficiency. Simple model, improved model. Tables with results.}
+\begin{itemize}
+\item The concept of ``structural density'' (characterizes the amount of the markup and the structural properties of an XML document -- !TO MAKE UP!) and its influence on the compression.
+\end{itemize}
+
+\section{Conclusions}
+\summary{A summary of the work, related and future work.}
+\begin{itemize}
+\item We have explored, implemented, tested, \ldots \ldots
+\item Analysis of DTD allowing better XML structure modeling
+\item Focus on better compression of the declaration content of XML (declaration of elements, attribute types, entities, and notations)
+\item User assistance: constraints that help compress the data, etc.
+\item Optimizations of created system (implementation of the Improved Sequential Algorithm for encoding the grammar, etc.)
+\item \ldots \ldots
+\end{itemize}
+
+
+\section{Appendices}
+
+\subsection{User documentation}
+\summary{How to install, how to run, how to use the library in other programs.}
+\begin{itemize}
+\item System requirements, installation
+\item Work with the program (options, etc.)
+\item Using the library in C++ programs
+\end{itemize}
+
+\subsection{Developer documentation}
+\summary{Brief description of the implementation.}
+\begin{itemize}
+\item Programming language, supported system environments
+\item Architecture of the system. The most important components: XML codec, XML parser (the bindings to the \texttt{expat} parser), XML model (simple and improved), KY grammar (data structures for efficient representation of the grammar, algorithms), Arithmetic coding context, Arithmetic coder/decoder, \ldots
+\item Input/output devices: IO device, File device, \ldots
+\item Generation of Fibonacci codes, \ldots
+\item Text codec and extending the list of supported character encodings
+\item Description of C++ exceptions
+\end{itemize}
+
+\subsection{CD}
+\summary{All the sources, generated HTML API documentation, example XML documents, \ldots}
+
+
+\end{document}
+

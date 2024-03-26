@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+      <meta name="description" content="The reference documentation of Exalt" />
+	<meta name="keywords" content="xml, compression, grammar-based codes, string matching, arithmetic, coding" />
+	  <meta name="generator" content="GNU Emacs" />
+	    <link rel="stylesheet" type="text/css" href="style.css" />
+	      <title>Exalt Library Reference Documentation</title>
+  </head>
+
+  <body>
+    <h1 class="first">Exalt Library Reference Documentation</h1>
+    <p>Exalt is a C++ library for compression of XML documents. The library is an academic project, and is intended to serve as a platform for experiments rather than as a basis for industrial-strength applications. The main focus of the implementation was not on speed and memory sparing issues. The goal was to create a framework for XML data compression, which would be easy to use and to extend. Please keep this in mind.</p>
+
+    <p>Exalt uses <a href="http://expat.sourceforge.net/">Expat</a>, the excellent XML parser written by James Clark.</p>
+
+    <p>Exalt is free software, licensed under the GNU General Public License, Version 2. However, some parts of the sources (the arithmetic coding routines, to be exact) originate from Alistair Moffat (<a href="http://www.cs.mu.oz.au/~alistair/">http://www.cs.mu.oz.au/~alistair/</a>), who made them only available for academic purposes.</p>
+
+    <p>The library has been written by <a href="mailto:vtoman[REMOVE]@lit.cz">Vojtech Toman</a>. For latest news and downloads, please visit the Exalt project <a href="http://exalt.sourceforge.net">home page</a>.</p>
+
+    <h2>Table of Contents</h2>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#building">Building and Installing</a></li>
+      <li><a href="#using-app">Using the Command-line application</a></li>
+      <li><a href="#using-lib">Using the Library</a>
+	<ul>
+	  <li><a href="#sample">Sample Application</a></li>
+	  <li><a href="#push">Using the PUSH Interface</a></li>
+	  <li><a href="#sax">Using the SAX Interface</a></li>
+	  <li><a href="#options">Changing the Default Options</a></li>
+	  <li><a href="#devices">Input and Output Devices</a></li>
+	</ul>
+      </li>
+    </ul>
+
+    <hr />
+
+	<h2><a name="overview">Overview</a></h2>
+<p>Because XML is an extremely verbose language, the documents in XML are usually much larger than in other representations. This makes XML a candidate for data compression. The common approach is to apply existing text compressors such as <tt>gzip</tt>. However, the performace of these compressors is not always as good as one would expect - although it is obvious that XML contains a lot of redundancy. The problem is that this redundancy is hidden in the XML structure, and it is hard for standard text compressors to discover it and to utilize it in the compression. A more sophisticated approach is therefore needed.</p>
+<p>In these days, there do exist various tools for XML data compression - <a href="http://www.research.att.com/sw/tools/xmill/">XMill</a>, XMLZip and <a href="http://www.cs.cornell.edu/People/jcheney/xmlppm/xmlppm.html">XMLPPM</a> among others. However, there are still many ways to be explored on the field of XML data compression. These tools adapt existing text compressors to XML very often. XMill, for example, scatters the data into a set of data containers and uses <tt>gzip</tt> to compress them. XMLPPM uses several contexts for encoding XML entities (elements, attributes, etc.) and uses an adapted version of PPM.</p>
+<p>Exalt takes a different approach. Since XML has a context-free nature, syntactic compression is applied. Exalt implements a technique based on so called <a href="http://citeseer.nj.nec.com/kieffer00grammar.html">grammar-based codes</a> introduced recently by J. C. Kieffer and E.-H. Yang. Apart from other reasons, it was also an interesting test on how it performed.</p>
+<p>It is clear that syntactic compression by itself is not enough for efficient XML compression. Some kind of modeling that would help to discover the redundancy is desirable. There are two modeling strategies implemented in Exalt: the simple modeling, and the adaptive modeling.</p>
+<p>The policy of the simple modeling strategy is very simple. The input XML data is transformed such that the appearances of the known elements and attributes as well as the ends of the elements are represented by numeric tokens to save space. The transformed data is then passed to the syntactic compression. This approach brings nothing new to the XML compression, since a similar technique is used in XMill, for instance. However, the simple modeling acts as a good foundation for further experiments.</p>
+<p>The adaptive modeling strategy, roughly speaking, tries to do some probabilistic modeling of the elements. During parsing the input XML data, models for individual elements are being built to reflect their structural and probabilistic chararacteristics. The models are then used to predict the structure of the following data, and to improve the compression performance.</p>
+<p>Interesting to note is that the adaptive modeling strategy is not always better than the simple strategy. In fact, it performs the same on average. 
+<!-- The reason can be that the redundant data discovered by the adaptive model is filtered out during the syntactic compression because of the nature of the grammar-based code. -->
+However, the adaptive modeling yields a faster run, since fewer symbols have to be processed by the syntactic compressor.</p>
+<p>An unique feature of the Exalt library is that it can act as an ordinary SAX parser. It can read compressed XML data and emit SAX events to the application. The SAX interface of Exalt is nearly identical to the interface of the Expat XML parser.</p>
+<p>For more details on the theoretical/implementation background of Exalt, please refer to the Exalt <a href="http://exalt.sourceforge.net">home page</a>.</p>
+
+    <hr />
+
+	<h2><a name="building">Building and Installing</a></h2>
+	<p>Exalt uses the GNU autotools. In order to build and install, you'll need to run the <tt>configure</tt> shell script to configure the Makefiles and headers for your system.</p>
+	<p>If you are happy with all the defaults that <tt>configure</tt> picks for you, and you have permission on your system to install into <tt>/usr/local</tt>, you can install Exalt with this sequence of commands:</p>
+    <pre>
+$ ./configure
+$ make
+$ make install
+</pre>
+
+    <p>There are some options that you can provide to the <tt>configure</tt> script, but the most important one is the <tt>--prefix</tt> option. You can find out all the options available by running <tt>configure</tt> with just the <tt>--help</tt> option.</p>
+
+    <p>By default, the <tt>configure</tt> script sets things up so that the library gets installed in <tt>/usr/local/lib</tt> and the associated header files in <tt>/usr/local/include</tt>. But if you were to give the option, <tt>--prefix=/home/me/mystuff</tt>, then the library and headers would get installed in <tt>/home/me/mystuff/lib</tt> and <tt>/home/me/mystuff/include</tt> respectively.</p>
+    <p>Since the library is loaded dynamically, it is important to ensure that the <tt>LD_LIBRARY_PATH</tt> environment variable contains the entry <tt>/home/me/mystuff/lib</tt>.</p>
+    <hr />
+      
+      <h2><a name="using-app">Using the Command-line application</a></h2>
+      <p>The distribution comes with a simple and easy to use command-line application that demonstrates the functionality of the library. It is named <tt>exalt</tt> and allows you to compress and decompress XML files in a convenient way.</p>
+      <p>After installation, you can test the application by typing:</p>
+      <pre>
+$ exalt -h
+</pre>
+      <p>This command executes the application and display the usage information. (If nothing happened, please check your <tt>PATH</tt> environment variable.)</p>
+      <p>The arguments of <tt>exalt</tt> are file names and options in any order. The possible options are:</p>
+      <ul>
+	<li><tt>-s suf</tt> (or <tt>--suffix suf</tt>) - Use the suffix <tt>.suf</tt> on compressed files. Default suffix is <tt>.e</tt></li>
+	<li><tt>-d</tt> (or <tt>--decompress</tt>) - Decompress file(s)</li>
+	<li><tt>-f</tt> (or <tt>--force</tt>) - Overwrite files, do not stop on errors</li>
+	<li><tt>-c</tt> (or <tt>--stdout</tt>) - Write on standard input</li>
+	<li><tt>-a</tt> (or <tt>--adaptive</tt>) - Use the adaptive model for compression</li>
+	<li><tt>-x</tt> (or <tt>--erase</tt>) - Erase source files</li>
+	<li><tt>-e enc</tt> (or <tt>--encoding enc</tt>) - Set the decompressed data encoding to <tt>enc</tt></li>
+	<li><tt>-l</tt> (or <tt>--list-encodings</tt>) - List the recognized (not necessarily supported !) encodings</li>
+	<li><tt>-v</tt> (or <tt>--verbose</tt>) - Be verbose</li>
+	<li><tt>-m</tt> (or <tt>--print-models</tt>) - Display the element models. This option makes sense only if the adaptive model is turned on. (Beware: the models may be huge!)</li>
+	<li><tt>-g</tt> (or <tt>--print-grammar</tt>) - Display the generated grammar (Beware: the grammar may be huge!)</li>
+	<li><tt>-V</tt> (or <tt>--version</tt>) - Display the version number</li>
+	<li><tt>-L</tt> (or <tt>--license</tt>) - Display the version number and the software license</li>
+	<li><tt>-h</tt> (or <tt>--help</tt>) - Display the usage information</li>
+      </ul>
+      <p>The default action is to compress. If no file names are given, or if a file name is '-', <tt>exalt</tt> compresses or decompresses from standard input to standard output.</p>
+      <p>For example, if you want to compress <tt>file.xml</tt> in the verbose mode using the adaptive model, and if you wish also to display the generated grammar, use the following command:</p>
+      <pre>
+$ exalt -a file.xml -v -g
+</pre>
+      <p>If everything went all right, a file named <tt>file.xml.e</tt> will be created.</p>
+      <p>It is also easy to use <tt>exalt</tt> as an filter:</p>
+      <pre>
+$ cat file.xml.e | exalt -d -c | more
+</pre>
+
+      <hr />
+
+      <h2><a name="using-lib">Using the Library</a></h2>
+      <p>In the following text you will find out how to use the functionality of the library in a C++ program. Because of the simple and clean interface of the library, it is a quite straightforward process.</p>
+      <h3><a name="sample">Sample Application</a></h3>
+      <p>In this section, a sample application using the Exalt library is presented. It takes a name of a XML file on the command line, and compresses that file on standard output (be sure to redirect standard output to some file or to <tt>/dev/null</tt> to avoid terminal confusion). The main functionality of the Exalt library is encapsulated in the <tt>ExaltCodec</tt> class, so the only thing you have to do is to create an instance of this class and to call an appropriate method of it. The methods used most often are <tt>encode()</tt> and <tt>decode()</tt>. In their basic variants, they both take two arguments: the name of the input file and the name of the output file. If the name of the input file is NULL, standard input is used. Similarly, if the name of the output file is NULL, the standard output is used.</p>
+    <p>When (de)compressing, a variety of errors can occur (the input data is not well-formed XML, some of the files doesn't exist, etc.). To report these errors, Exalt uses the mechanism of C++ exceptions. Each exception is derived from <tt>ExaltException</tt>, so handling this exception will handle all the other exceptions. For more detailed description of the exceptions used by Exalt, please refer to the API documentation.</p>
+    <p>So let's have a look at the example code:</p>
+    <pre>
+#include &lt;exaltcodec.h&gt;
+
+int main(int argc, char **argv)
+{
+  ExaltCodec codec;
+
+  if (argc &lt; 2)
+    return 1;
+      
+  try
+    {
+      codec.encode(argv[1], 0);
+    }
+
+  catch (ExaltException)
+    {
+      cerr &lt;&lt; "Failed to compress " &lt;&lt; argv[1];
+      return 1;
+    }
+
+  return 0;
+}
+</pre>
+    <p>The header file <tt>exaltcodec.h</tt> is the only header you have to include to use the library.</p>
+    <p>Save the example source as <tt>example.cpp</tt>. To compile, you have to tell the compiler where to find the library and the headers. If Exalt has been installed in <tt>/home/me/mystuff</tt>, then you should pass following options to the compiler: <tt>-I/home/me/mystuff/include -L/home/me/mystuff/lib</tt>. Next to that, the linker should be instructed to link against the Exalt library. This can be achieved by the option <tt>-lexalt</tt>.</p>
+    <p><b>Note:</b> If Exalt has been installed in the standard location (the default), you probably have not to specify the options mentioned above (except <tt>-lexalt</tt>, of course).</p>
+
+    <pre>
+$ g++ -o example example.cpp -I/home/me/mystuff/include -L/home/me/mystuff/lib -lexalt
+</pre>
+    <p>If everything went all right, a sample application has been built. So let's test it on some XML data:</p>
+    <pre>
+$ ./example sample.xml > tmp
+</pre>
+    <p>If the file <tt>sample.xml</tt> exists in the current directory, and the XML data is well-formed, the compressed data are be written to the file <tt>tmp</tt>. If you compare the sizes of <tt>sample.xml</tt> and <tt>tmp</tt>, the latter file should be smaller. :-)</p>
+
+    <h3><a name="push">Using the PUSH Interface</a></h3>
+    <p>The Exalt library offers a functionality to work in two main modes: in the PULL mode and in the PUSH mode.</p>
+    <p>The PULL interface means that the input data is read from the input stream by the Exalt codec. This is useful mainly in the occasions when you are (de)compressing some files. (The sample example presented in the previous section demonstrates the use of the PUSH interface.)</p>
+    <p>The PUSH interface means that the application "feeds" the Exalt codec with the data. This mode can be used for compression (not for decompression) of the data that is dynamically generated. In order to use the PUSH interface, you have to use these two methods of the <tt>ExaltCodec</tt> class: <tt>initializePushCoder()</tt> and <tt>encodePush()</tt>.</p>
+    <p>The <tt>initializePushCoder()</tt> method MUST be called before any calls to <tt>encodePush()</tt> and initializes the coder in the PUSH mode. In its basic variant, the method requires a name of an output file as a parameter.</p>
+    <p>The <tt>encodePush()</tt> method encodes given chunk of XML data. The method has three parameters: a pointer to the data, the length of the data, and a flag indicating the last chunk of data.</p>
+    <p>If you attempt to use the PUSH coder in the PULL mode (or vice versa), the <tt>ExaltCoderIsPushException</tt> (or <tt>ExaltCoderIsPullException</tt>) is raised.</p>
+    <p>Below you can see a snippet of code that demostrates the PUSH functionality of the library:</p>
+    <pre>
+...
+
+ExaltCodec codec;
+int length;
+bool finished = false;
+
+codec.initializePushCoder(fileName);
+
+while (!finished)
+  {
+    data = generateData(&amp;length, &amp;finished);
+    codec.encodePush(data, length, finished);
+  }
+
+...
+</pre>
+
+    <h3><a name="sax">Using the SAX Interface</a></h3>
+    <p>Exalt can act (with some limitations) as an ordinary SAX parser on the compressed XML data. It can read the stream of compressed data and emit SAX events to the application. The SAX interface is similar to that of the Expat XML parser.</p>
+    <p>To use the SAX event facilities, you have to inherit the <tt>SAXReceptor</tt> class and reimplement appropriate event handling methods (for details, please refer to the API documentation). The second step is to use a special variant of the <tt>decode()</tt> method of the <tt>ExaltCodec</tt> class, which takes a pointer to an instance of <tt>SAXReceptor</tt> instead of the name of the output file. The optional parameter of this method is a generic pointer to the user data structure. This pointer is passed to the handlers of the receptor.</p>
+    <p>The example below demonstrates how to handle the <tt>startElement</tt> SAX event:</p>
+      <pre>
+#include &lt;exaltcodec.h&gt;
+
+class MySAXReceptor : public SAXReceptor
+{
+public:
+  void startElement(void *userData, const XmlChar *name, const XmlChar **attr)
+  {
+    cout &lt;&lt; "Element " &lt;&lt; name &lt;&lt; endl;
+
+    if (attr)
+      for (int i = 0; attr[i]; i += 2)
+        cout &lt;&lt; "Attribute " &lt;&lt; attr[i] &lt;&lt " has value " &lt;&lt; attr[i+1] &lt;&lt; endl;
+  }
+};
+
+
+int main(int argc, char **argv)
+{
+  ExaltCodec codec;
+  MySAXReceptor receptor;
+
+  if (argc &lt; 2)
+    return 1;
+      
+  try
+    {
+      codec.decode(argv[1], &amp;receptor);
+    }
+
+  catch (ExaltException)
+    {
+      cerr &lt;&lt; "Failed to decompress " &lt;&lt; argv[1];
+      return 1;
+    }
+
+  return 0;
+}
+</pre>
+
+    <h3><a name="options">Changing the Default Options</a></h3>
+    <p>There are various options that affect the behaviour of the library. In most occasions, there is no need to change the default settings, because the library works quite fine without any user/programmer assistance.</p>
+    <p>The library uses a static class <tt>ExaltOptions</tt> for setting and reading options. This class contains methods <tt>setOption()</tt> and <tt>getOption()</tt> for setting the option values, or for reading the option values respectively. The possible options and their values are listed below:</p>
+
+    <ul>
+      <li><tt>ExaltOptions::Verbose</tt> - Determines whether the library should be verbose. In the verbose mode, some textual information is displayed on the standard error output. Possible values:
+	<ul>
+	  <li><tt>ExaltOptions::Yes</tt> - Be verbose</li>
+	  <li><tt>ExaltOptions::No</tt> - Don't be verbose (default)</li>
+	</ul>
+      </li>
+      <li><tt>ExaltOptions::Model</tt> - Determines what model is used for the compression
+	<ul>
+	  <li><tt>ExaltOptions::SimpleModel</tt> - Use the simple model for compression</li>
+	  <li><tt>ExaltOptions::AdaptiveModel</tt> - Use the adaptive model for compression (default)</li>
+	</ul>
+      </li>
+      <li><tt>ExaltOptions::PrintGrammar</tt> - Determines whether to display the grammar generated from the input data. Beware: The grammar may be huge!
+	<ul>
+	  <li><tt>ExaltOptions::Yes</tt> - Display the generated grammar</li>
+	  <li><tt>ExaltOptions::No</tt> - Don't display the generated grammar (default)</li>
+	</ul>
+      </li>
+      <li><tt>ExaltOptions::PrintModels</tt> - Determines whether to display the element models generated from the input data. The models are displayed only when using the adaptive model. Beware: The models may be huge!
+	<ul>
+	  <li><tt>ExaltOptions::Yes</tt> - Display the element models</li>
+	  <li><tt>ExaltOptions::No</tt> - Don't display the element models (default)</li>
+	</ul>
+      </li>
+      <li><tt>ExaltOptions::Encoding</tt> - Determines the encoding of the decompressed data
+	<ul>
+	  <li>The MIB of the encoding (see the API documentation for details). The default encoding is either <tt>Encodings::UTF_8</tt> or <tt>Encodings::UTF_8</tt> (depends on the configuration of the Expat parser)</li>
+	</ul>
+      </li>
+    </ul>
+
+    <p>The options are set by the static method <tt>setOption()</tt> of the class <tt>ExaltOptions</tt>. To turn the verbose mode on, for example, you should call <tt>ExaltOptions::setOption(ExaltOptions::Verbose, ExaltOptions::Yes)</tt></p>
+    <p>You can also read the values of the options with the static method <tt>getOption()</tt>. The call to <tt>ExaltOptions::setOption(ExaltOptions::Verbose)</tt> will return the current value of the "verbose" option.</p>
+
+
+    <h3><a name="devices">Input and Output Devices</a></h3>
+    <p>In the preceding text, the work with files was only discussed. The data was read from some file and written to another. However, the library allows you to use any "device" you desire, such as the network, some database, etc. In order to make this possible, the library works with so called IO devices. From the library's point of view, file is nothing but a special type (and the most common one) of IO devices.</p>
+    <p>There exists an abstract class <tt>IODevice</tt> that defines the functionality (see the API documentation) that every device has to implement. Using this class and the C++ inheritance mechanism, it is simple to create new devices.</p>
+    <p>How to use the new device? It is quite straightforward, since the <tt>encode()</tt>, <tt>decode()</tt> and <tt>initializePushCoder()</tt> methods of the <tt>ExaltCodec</tt> class exist also in variants that accept pointers to the input devices as their parameters. Below you can see an example:</p>
+    <pre>
+...
+
+codec.encode(inputDevice, outputDevice);
+
+...
+</pre>
+
+    <hr />
+
+  </body>
+</html>

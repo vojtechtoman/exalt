@@ -1,0 +1,15 @@
+TODO list (from the present to the past):
+=========================================
+
+OK - An error in XmlAdaptiveModel decoding part that is caused by FINISH_ELEMENT_START
+OK - Maybe it's useless to encode base identifier of doctype, entities or notations?
+ (NOTE: Base identifier not encoded)
+   - Length of entity value is limited to XML_MODEL_BUFFER_DEFAULT_SIZE
+OK - Auto deletion of ruleset causes problems.
+OK - Ensure correct run when CDATA (plus maybe other things) exceed the xmlDataBuff
+OK - Use IDs is old variables
+ (NOTE: Sequential algorithm implemented)
+OK - Encoding the grammar according to KY
+OK - Check the error in KY (FORCE RR1)
+ (NOTE: Was my mistake...)
+OK - Some variables are missing in the terminal digrams

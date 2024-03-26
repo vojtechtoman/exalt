@@ -1,0 +1,74 @@
+dnl Initialisation
+AC_INIT(src/main.cpp)
+AM_CONFIG_HEADER(config.h)
+AM_INIT_AUTOMAKE(exalt, 0.1.0)
+
+
+dnl Set the documentation path
+AC_ARG_ENABLE(docdir,
+[  --enable-docdir=DIR     documentation files in DIR [/usr/share/doc/exalt-0.1.0] ], 
+pkgdocdir=${enable_docdir}, pkgdocdir=/usr/share/doc/exalt-0.1.0)
+AC_SUBST(pkgdocdir)
+
+dnl Set the path to Expat
+AC_ARG_ENABLE(expatdir,
+[  --enable-expatdir=DIR     Expat parser in DIR ], 
+[
+  CXXFLAGS="-I${enable_expatdir}/include"
+  LDFLAGS="-L${enable_expatdir}/lib"
+  LD_LIBRARY_PATH="${enable_expatdir}/lib:$LD_LIBRARY_PATH"
+  echo $CXXFLAGS
+  echo $LDFLAGS
+]
+)
+
+AC_SUBST(pkgexpatdir)
+
+
+dnl Checks for required tools
+AC_PROG_INSTALL
+AC_PROG_CXX
+AC_PROG_CXXCPP
+AC_LANG_CPLUSPLUS
+
+
+dnl Check for some headers
+AC_CHECK_HEADERS([cstdlib cstring ctime cmath iostream fstream iomanip])
+
+
+dnl Checks for the Expat parser
+AC_CHECK_LIB(expat, XML_ParserCreate, [], [AC_MSG_ERROR([You need the Expat XML parser in order to continue!])])
+
+dnl Test the version of Expat
+dnl AC_CHECK_EXPAT_VERSION
+
+dnl Test if XML_Char size
+AC_CHECK_SIZEOF_XMLCHAR
+
+
+dnl Check for size_t
+AC_TYPE_SIZE_T
+
+dnl Test the size of char type
+AC_CHECK_SIZEOF(char, 1)
+
+dnl Test the size of unsigned long type
+AC_CHECK_SIZEOF(unsigned long, 4)
+
+dnl Check for libtool
+AC_PROG_LIBTOOL
+
+
+dnl Substitute the ".C" extension of the executables with empty string
+dnl Libtool uses this extension for C++ executables
+if test x${EXEEXT} = x.C; then
+  EXEEXT=""
+fi
+
+
+dnl Output of Makefiles
+AC_OUTPUT([Makefile src/Makefile doc/Makefile doc/api-doc/Makefile])
+
+
+
+

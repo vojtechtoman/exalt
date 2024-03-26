@@ -1,0 +1,171 @@
+\usepackage{graphics, url}
+%\usepackage{a4wide}
+%\usepackage{fancyhdr}
+%\usepackage{times}
+%\usepackage{palatino}
+\usepackage[latin2]{inputenc}
+
+
+% \pagestyle{fancyplain}
+% \addtolength{\headwidth}{\marginparsep}
+% \addtolength{\headwidth}{\marginparwidth}
+% \newcommand{\clearemptydoublepage}{\newpage{\pagestyle{empty}\cleardoublepage}}
+% \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+% \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+% \lhead[\fancyplain{}{\thepage}]
+%         {\fancyplain{}{\rightmark}}
+% \rhead[\fancyplain{}{\leftmark}]
+%         {\fancyplain{}{\thepage}}
+%\cfoot{}
+
+
+
+\newcommand{\square}{\framebox(6,6){}}
+\newcommand{\rightsquare}{\hfill\square{}}
+
+
+\newcommand{\simplesection}[2]%
+	{\textbf{#1. }#2}
+
+
+\newcounter{definitionc}
+\renewcommand{\thedefinitionc}{Definition \arabic{definitionc}}
+\newcommand{\definition}[2]%
+	{\refstepcounter{definitionc}\bigskip%
+	\noindent\textbf{\thedefinitionc{} (#1). }%
+	#2\bigskip}
+
+
+\newcounter{examplec}
+\renewcommand{\theexamplec}{Example \arabic{examplec}}
+\newcommand{\example}[1]%
+	{\refstepcounter{examplec}\bigskip%
+	\noindent\textit{\theexamplec. }#1%
+	\rightsquare{}\bigskip}
+
+
+\newcounter{theoremc}
+\renewcommand{\thetheoremc}{Theorem \arabic{theoremc}}
+\newcommand{\theorem}[1]%
+	{\refstepcounter{theoremc}\bigskip%
+	\noindent\textbf{\thetheoremc. }\textsl{#1}%
+	\bigskip}
+
+
+\newcommand{\proof}[1]%
+	{\noindent\textit{Proof. }#1%
+	\rightsquare{}\bigskip}
+
+
+\newcommand{\discussion}[1]%
+	{\bigskip%
+	\noindent\textit{Discussion. }#1%
+	\bigskip}
+
+
+\newcommand{\remark}[1]%
+	{\bigskip%
+	\noindent\textbf{Remark. }#1%
+	\bigskip}
+
+
+\newcounter{propertylistc}
+\newcounter{propertyitemc}
+\renewcommand{\thepropertyitemc}%
+	{\textbf{(\alph{propertylistc}.\arabic{propertyitemc})}}
+\newenvironment{propertylist}
+	{\refstepcounter{propertylistc}\begin{list}%
+	{\thepropertyitemc}%
+	{\usecounter{propertyitemc}}}%
+	{\end{list}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\XXX}[1]%
+	{\framebox{#1 TODO}}
+
+% Exalt logo
+\newcommand{\Exalt}%
+	{Exalt}
+
+\newcommand{\VT}%
+	{Vojtìch Toman}
+
+\newcommand{\Pokorny}%
+	{Prof. RNDr. Jaroslav Pokorný, CSc.}
+
+\newcommand{\KSI}%
+	{Department of Software Engineering}
+
+% Program name
+\newcommand{\app}[1]%
+	{\texttt{#1}}
+
+% Library name
+\newcommand{\library}[1]%
+	{\texttt{#1}}
+
+% Input data
+\newcommand{\inputdata}[1]%
+	{\texttt{#1}}
+
+% Output data
+\newcommand{\outputdata}[1]%
+	{\texttt{#1}}
+
+% Data
+\newcommand{\data}[1]%
+	{\texttt{#1}}
+
+% File name
+\newcommand{\file}[1]%
+	{\url{#1}}
+
+% Directory name (adds /)
+\newcommand{\dir}[1]%
+	{\url{#1}/}
+
+
+% E-mail address
+\newcommand{\email}[1]%
+	{\url{#1}}
+
+% Shell command
+\newcommand{\shell}[1]%
+	{\texttt{\$ #1}}
+
+
+% Warning
+\newcommand{\warning}[1]%
+	{WARNING: #1}
+
+% Tip
+\newcommand{\tip}[1]%
+	{TIP: #1}
+
+% Note in the text
+\newcommand{\note}[1]%
+	{NOTE: #1}
+
+% Important concept
+\newcommand{\concept}[1]%
+	{\emph{#1}}
+
+% Word(s) that has to be inserted in the index
+\newcommand{\indexterm}[1]%
+	{#1\index{#1}}
+
+% Create FIGURE:
+% 1 - file name
+% 2 - Figure caption
+% 3 - figure label
+\newcommand{\image}[3]%
+	{\begin{figure}[htb]%
+	\begin{center}\includegraphics{#1}\end{center}%
+	\caption{#2}\label{#3}%
+	\end{figure}}
+
+\newcommand{\niceref}[1]%
+	{\ref{#1}$_{[\pageref{#1}]}$}

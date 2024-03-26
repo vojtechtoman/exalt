@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<!DOCTYPE book PUBLIC "-//OASIS/DTD DocBook XML V4.1.2//EN" "/usr/share/sgml/docbook/xml-dtd-4.1.2/docbookx.dtd">
+
+<book lang="cs">
+  <bookinfo>
+    <title>
+      <?prd "ss"?>
+      <?prd?>
+      DocBook V4.0 Example Document
+    </title>
+    <author>
+      <firstname>>
+	Norman
+      </firstname>
+      <![CDATA[Expat is cool!!!]]>
+<!--  <![CDATA[LibXML is cool!]]> -->
+      <surname>
+	Walsh
+      </surname>
+    </author>
+    <abstract>
+      <para>
+	This document demonstrates <!-- the new --> tags in DocBook V4.0.
+      </para>
+      <para>
+	The focus of this document is to present examples of new elements,
+	minor changes such as the addition of new attribute values are not
+	included.
+      </para>
+    </abstract>
+  </bookinfo>
+
+  <chapter>
+    <title>
+      Block-level Markup
+    </title>
+    <para>
+      Something...
+    </para>
+  </chapter>
+
+  <chapter>
+    <title>
+      Inline markup&amp;&gt;
+    </title>
+    <para>
+      The <sgmltag>sgmltag</sgmltag> element has new
+      <sgmltag class="attribute">class</sgmltag> attribute values:
+      <literal>xmlpi</literal> and
+      <literal>emptytag</literal>. These produce
+      <sgmltag class="xmlpi">processing instructions</sgmltag>
+      and <sgmltag class="emptytag">empty-tag</sgmltag> markup
+      suitable for XML.
+    </para>
+  </chapter>
+
+</book>

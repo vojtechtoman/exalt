@@ -1,0 +1,4 @@
+2003-01-31 16:21  vojta
+
+        * doc/Makefile.am:
+        Fixed the problem with the reference documentation

@@ -1,0 +1,30 @@
+\chapter{Compression of XML}
+Like any textual markup language, XML tends to be verbose. There is a lot of ``redundant'' data in an XML document -- the white space, the element and attribute names, etc. XML documents are therefore a prime candidate for compression.
+
+Although there do exist some compressors tailored to XML, the common practics is to compress XML documents as ordinary text files. The reason why this happens is quite simple. While the standard compressors such as \app{gzip} often fail to discover the redundancy contained in the XML data, and therefore offer suboptimal results, they are accessible, easy to use, and -- perhaps most importantly -- widely accepted. On the other hand, the majority of the existing XML-conscious compressors is in a rather experimental stage, or unknown to the public. This lack of a standardized XML compression scheme forces the companies to either rely on the existing ``generic'' and reliable compressors, or to develop a proprietary one-purpose solution.\footnote{For example, the WAP community \cite{WAPForum} has developed an architecture for binary XML encoding, which includes efficient compression.}
+
+From the business point of view, the future of XML can depend on efficiency. What are its benefits, the verbosity of XML can hinder \dots 
+
+\section{Existing XML-conscious compressors}
+There are \dots
+
+\subsection{\app{XMill}}
+H. Liefke and D. Suciu \cite{Liefke-00} have implemented an XML compressor (\app{XMill}) which is based on \app{gzip}. This tool compresses about twice as good as \app{gzip}, and at about the same speed. \app{XMill} allows to combine existing compressors in order to compress heterogeneous XML data. Further, it is extensible with user-defined compressors for complex data types, such as DNA sequences, etc.
+
+\app{XMill} is built upon three main principles:
+
+\begin{description}
+\item [Separate structure from data.] The structure (represented by XML tags and attributes) and the data are compressed separately.
+\item [Group data items with related meaning.] The data items are grouped into \concept{containers}, which are compressed separately. By default, \app{XMill} groups the data items based on the element type, but users can override that through so called \concept{container expressions}. By grouping similar data items, one can improve the compression substantially.
+\item [Apply semantic compressors to containers.] Because the data items can be of different types (text, numbers, dates, etc.), \app{XMill} allows the users to apply different specialized compressors (\concept{semantic compressors}) to different containers.
+\end{description}
+
+\subsection{\app{XMLZIP}}
+Breaks the structural tree into many components and uses the JAVA's built-in ZIP/DEFLATE library. Simple but sometimes gives very poor results. Allows random access to documents without storing whole document uncompressed.
+
+\subsection{\app{ESAX}}
+Encodes the SAX events. When combined with some of the PPM variants, it beats \app{XMill}. Allows online encoding/decoding.
+
+\subsection{\app{XMLPPM}}
+A follow-up to \app{ESAX}, uses so called Multiplexed Hierarchical Modeling (based on PPM). Multiplexes several models and switches among them. Probably the best XML compressor so far. Incremental encoding and decoding.
+

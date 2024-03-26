@@ -1,0 +1,50 @@
+/* config.h.in.  Generated automatically from configure.in by autoheader.  */
+
+/* Define to `unsigned' if <sys/types.h> doesn't define.  */
+#undef size_t
+
+/* Define if you have the ANSI C header files.  */
+#undef STDC_HEADERS
+
+/* Size of XML_Char */
+#undef SIZEOF_XML_CHAR
+
+/* The number of bytes in a char.  */
+#undef SIZEOF_CHAR
+
+/* The number of bytes in a unsigned long.  */
+#undef SIZEOF_UNSIGNED_LONG
+
+/* Define if you have the <cmath> header file.  */
+#undef HAVE_CMATH
+
+/* Define if you have the <cstdlib> header file.  */
+#undef HAVE_CSTDLIB
+
+/* Define if you have the <cstring> header file.  */
+#undef HAVE_CSTRING
+
+/* Define if you have the <ctime> header file.  */
+#undef HAVE_CTIME
+
+/* Define if you have the <dlfcn.h> header file.  */
+#undef HAVE_DLFCN_H
+
+/* Define if you have the <fstream> header file.  */
+#undef HAVE_FSTREAM
+
+/* Define if you have the <iomanip> header file.  */
+#undef HAVE_IOMANIP
+
+/* Define if you have the <iostream> header file.  */
+#undef HAVE_IOSTREAM
+
+/* Define if you have the expat library (-lexpat).  */
+#undef HAVE_LIBEXPAT
+
+/* Name of package */
+#undef PACKAGE
+
+/* Version number of package */
+#undef VERSION
+
